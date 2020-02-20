@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/grupo07/ontologies#"
+     xml:base="http://www.semanticweb.org/grupo07/ontologies"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/grupo07/ontologies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#inDistrict -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#inDistrict">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#District"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasBus -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasBus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasRegion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasRegion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/property#hasUrl -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/grupo07/ontologies/property#hasUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/class#District -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/grupo07/ontologies/class#District"/>
+    
+
+
+    <!-- http://www.semanticweb.org/grupo07/ontologies/class#Park -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/grupo07/ontologies/class#Park"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

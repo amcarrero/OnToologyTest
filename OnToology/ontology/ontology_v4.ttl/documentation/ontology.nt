@@ -1,0 +1,90 @@
+<http://www.semanticweb.org/grupo07/ontologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#inDistrict
+<http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/grupo07/ontologies/class#District> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasAddress
+<http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasBus
+<http://www.semanticweb.org/grupo07/ontologies/property#hasBus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasBus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasBus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasDescription
+<http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasName
+<http://www.semanticweb.org/grupo07/ontologies/property#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode
+<http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasRegion
+<http://www.semanticweb.org/grupo07/ontologies/property#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/property#hasUrl
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/grupo07/ontologies/class#Park> .
+<http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/grupo07/ontologies/class#District
+<http://www.semanticweb.org/grupo07/ontologies/class#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/grupo07/ontologies/class#Park
+<http://www.semanticweb.org/grupo07/ontologies/class#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
