@@ -1,0 +1,54 @@
+{
+  "@context" : {
+    "hasUrl" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "District" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/class#District"
+    },
+    "hasLongitud" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasUnderground" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLatitude" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "inDistrict" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+      "@type" : "@id"
+    },
+    "hasPostalCode" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRegion" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasDescription" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Park" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/class#Park"
+    },
+    "hasBus" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

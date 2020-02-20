@@ -1,0 +1,21 @@
+{
+  "@context" : {
+    "hasEspecie" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie"
+    },
+    "hasPlantName" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasParkName" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Especie" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/class#Especie"
+    },
+    "Park" : {
+      "@id" : "http://www.semanticweb.org/grupo07/ontologies/class#Park"
+    }
+  }
+}
