@@ -1,0 +1,1657 @@
+{
+  "@context" : {
+    "olympicGamesSilver" : {
+      "@id" : "http://dbpedia.org/ontology/olympicGamesSilver"
+    },
+    "principal" : {
+      "@id" : "http://dbpedia.org/ontology/principal",
+      "@type" : "@id"
+    },
+    "skinColor" : {
+      "@id" : "http://dbpedia.org/ontology/skinColor"
+    },
+    "olympicOathSwornByAthlete" : {
+      "@id" : "http://dbpedia.org/ontology/olympicOathSwornByAthlete",
+      "@type" : "@id"
+    },
+    "birthName" : {
+      "@id" : "http://dbpedia.org/ontology/birthName"
+    },
+    "raceWins" : {
+      "@id" : "http://dbpedia.org/ontology/raceWins"
+    },
+    "Gate" : {
+      "@id" : "http://dbpedia.org/ontology/Gate"
+    },
+    "senator" : {
+      "@id" : "http://dbpedia.org/ontology/senator",
+      "@type" : "@id"
+    },
+    "continentalTournament" : {
+      "@id" : "http://dbpedia.org/ontology/continentalTournament"
+    },
+    "debutWork" : {
+      "@id" : "http://dbpedia.org/ontology/debutWork"
+    },
+    "silverMedalist" : {
+      "@id" : "http://dbpedia.org/ontology/silverMedalist",
+      "@type" : "@id"
+    },
+    "detractor" : {
+      "@id" : "http://dbpedia.org/ontology/detractor",
+      "@type" : "@id"
+    },
+    "causeOfDeath" : {
+      "@id" : "http://dbpedia.org/ontology/causeOfDeath"
+    },
+    "pastMember" : {
+      "@id" : "http://dbpedia.org/ontology/pastMember",
+      "@type" : "@id"
+    },
+    "leader" : {
+      "@id" : "http://dbpedia.org/ontology/leader",
+      "@type" : "@id"
+    },
+    "endReign" : {
+      "@id" : "http://dbpedia.org/ontology/endReign"
+    },
+    "parliamentaryGroup" : {
+      "@id" : "http://dbpedia.org/ontology/parliamentaryGroup"
+    },
+    "notableStudent" : {
+      "@id" : "http://dbpedia.org/ontology/notableStudent",
+      "@type" : "@id"
+    },
+    "Journalist" : {
+      "@id" : "http://dbpedia.org/ontology/Journalist"
+    },
+    "nationalTournamentSilver" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTournamentSilver"
+    },
+    "headChef" : {
+      "@id" : "http://dbpedia.org/ontology/headChef",
+      "@type" : "@id"
+    },
+    "memberOfParliament" : {
+      "@id" : "http://dbpedia.org/ontology/memberOfParliament",
+      "@type" : "@id"
+    },
+    "worldTournamentGold" : {
+      "@id" : "http://dbpedia.org/ontology/worldTournamentGold"
+    },
+    "member" : {
+      "@id" : "http://dbpedia.org/ontology/member"
+    },
+    "created" : {
+      "@id" : "http://dbpedia.org/ontology/created"
+    },
+    "mood" : {
+      "@id" : "http://dbpedia.org/ontology/mood"
+    },
+    "chairman" : {
+      "@id" : "http://dbpedia.org/ontology/chairman",
+      "@type" : "@id"
+    },
+    "formerCoach" : {
+      "@id" : "http://dbpedia.org/ontology/formerCoach",
+      "@type" : "@id"
+    },
+    "badGuy" : {
+      "@id" : "http://dbpedia.org/ontology/badGuy"
+    },
+    "littlePoolRecord" : {
+      "@id" : "http://dbpedia.org/ontology/littlePoolRecord"
+    },
+    "olympicOathSwornBy" : {
+      "@id" : "http://dbpedia.org/ontology/olympicOathSwornBy",
+      "@type" : "@id"
+    },
+    "compiler" : {
+      "@id" : "http://dbpedia.org/ontology/compiler",
+      "@type" : "@id"
+    },
+    "vicePresident" : {
+      "@id" : "http://dbpedia.org/ontology/vicePresident",
+      "@type" : "@id"
+    },
+    "temple" : {
+      "@id" : "http://dbpedia.org/ontology/temple"
+    },
+    "Judge" : {
+      "@id" : "http://dbpedia.org/ontology/Judge"
+    },
+    "TelevisionPersonality" : {
+      "@id" : "http://dbpedia.org/ontology/TelevisionPersonality"
+    },
+    "university" : {
+      "@id" : "http://dbpedia.org/ontology/university"
+    },
+    "profession" : {
+      "@id" : "http://dbpedia.org/ontology/profession"
+    },
+    "piercing" : {
+      "@id" : "http://dbpedia.org/ontology/piercing"
+    },
+    "Linguist" : {
+      "@id" : "http://dbpedia.org/ontology/Linguist"
+    },
+    "danseCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/danseCompetition"
+    },
+    "leaderName" : {
+      "@id" : "http://dbpedia.org/ontology/leaderName",
+      "@type" : "@id"
+    },
+    "canonizedBy" : {
+      "@id" : "http://dbpedia.org/ontology/canonizedBy",
+      "@type" : "@id"
+    },
+    "bustWaistHipSize" : {
+      "@id" : "http://dbpedia.org/ontology/bustWaistHipSize"
+    },
+    "MilitaryPerson" : {
+      "@id" : "http://dbpedia.org/ontology/MilitaryPerson"
+    },
+    "chairperson" : {
+      "@id" : "http://dbpedia.org/ontology/chairperson",
+      "@type" : "@id"
+    },
+    "FictionalCharacter" : {
+      "@id" : "http://dbpedia.org/ontology/FictionalCharacter"
+    },
+    "media" : {
+      "@id" : "http://dbpedia.org/ontology/media"
+    },
+    "Psychologist" : {
+      "@id" : "http://dbpedia.org/ontology/Psychologist"
+    },
+    "ethnicity" : {
+      "@id" : "http://dbpedia.org/ontology/ethnicity"
+    },
+    "olympicGames" : {
+      "@id" : "http://dbpedia.org/ontology/olympicGames"
+    },
+    "Economist" : {
+      "@id" : "http://dbpedia.org/ontology/Economist"
+    },
+    "bestLap" : {
+      "@id" : "http://dbpedia.org/ontology/bestLap"
+    },
+    "describes" : {
+      "@id" : "http://open.vocab.org/terms/describes"
+    },
+    "gameArtist" : {
+      "@id" : "http://dbpedia.org/ontology/gameArtist",
+      "@type" : "@id"
+    },
+    "homage" : {
+      "@id" : "http://dbpedia.org/ontology/homage"
+    },
+    "activeYearsEndYearMgr" : {
+      "@id" : "http://dbpedia.org/ontology/activeYearsEndYearMgr"
+    },
+    "newspaper" : {
+      "@id" : "http://dbpedia.org/ontology/newspaper"
+    },
+    "education" : {
+      "@id" : "http://dbpedia.org/ontology/education"
+    },
+    "juniorYearsEndYear" : {
+      "@id" : "http://dbpedia.org/ontology/juniorYearsEndYear"
+    },
+    "gymApparatus" : {
+      "@id" : "http://dbpedia.org/ontology/gymApparatus"
+    },
+    "chancellor" : {
+      "@id" : "http://dbpedia.org/ontology/chancellor",
+      "@type" : "@id"
+    },
+    "victoryPercentageAsMgr" : {
+      "@id" : "http://dbpedia.org/ontology/victoryPercentageAsMgr"
+    },
+    "medalist" : {
+      "@id" : "http://dbpedia.org/ontology/medalist",
+      "@type" : "@id"
+    },
+    "stateOfOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/stateOfOrigin"
+    },
+    "Philosopher" : {
+      "@id" : "http://dbpedia.org/ontology/Philosopher"
+    },
+    "continentalTournamentGold" : {
+      "@id" : "http://dbpedia.org/ontology/continentalTournamentGold"
+    },
+    "significantProject" : {
+      "@id" : "http://dbpedia.org/ontology/significantProject"
+    },
+    "PlayboyPlaymate" : {
+      "@id" : "http://dbpedia.org/ontology/PlayboyPlaymate"
+    },
+    "activeYearsEndDateMgr" : {
+      "@id" : "http://dbpedia.org/ontology/activeYearsEndDateMgr"
+    },
+    "associate" : {
+      "@id" : "http://dbpedia.org/ontology/associate",
+      "@type" : "@id"
+    },
+    "TheatreDirector" : {
+      "@id" : "http://dbpedia.org/ontology/TheatreDirector"
+    },
+    "OfficeHolder" : {
+      "@id" : "http://dbpedia.org/ontology/OfficeHolder"
+    },
+    "pastor" : {
+      "@id" : "http://dbpedia.org/ontology/pastor",
+      "@type" : "@id"
+    },
+    "apcPresident" : {
+      "@id" : "http://dbpedia.org/ontology/apcPresident",
+      "@type" : "@id"
+    },
+    "measurements" : {
+      "@id" : "http://dbpedia.org/ontology/measurements"
+    },
+    "bloodGroup" : {
+      "@id" : "http://dbpedia.org/ontology/bloodGroup"
+    },
+    "idNumber" : {
+      "@id" : "http://dbpedia.org/ontology/idNumber"
+    },
+    "height" : {
+      "@id" : "http://dbpedia.org/ontology/Person/height"
+    },
+    "footedness" : {
+      "@id" : "http://dbpedia.org/ontology/footedness",
+      "@type" : "@id"
+    },
+    "almaMater" : {
+      "@id" : "http://dbpedia.org/ontology/almaMater"
+    },
+    "currentMember" : {
+      "@id" : "http://dbpedia.org/ontology/currentMember",
+      "@type" : "@id"
+    },
+    "killedBy" : {
+      "@id" : "http://dbpedia.org/ontology/killedBy"
+    },
+    "founder" : {
+      "@id" : "http://dbpedia.org/ontology/founder",
+      "@type" : "@id"
+    },
+    "MemberResistanceMovement" : {
+      "@id" : "http://dbpedia.org/ontology/MemberResistanceMovement"
+    },
+    "thirdCommander" : {
+      "@id" : "http://dbpedia.org/ontology/thirdCommander",
+      "@type" : "@id"
+    },
+    "philosophicalSchool" : {
+      "@id" : "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    "seiyu" : {
+      "@id" : "http://dbpedia.org/ontology/seiyu",
+      "@type" : "@id"
+    },
+    "freeDanseScore" : {
+      "@id" : "http://dbpedia.org/ontology/freeDanseScore"
+    },
+    "managingEditor" : {
+      "@id" : "http://dbpedia.org/ontology/managingEditor",
+      "@type" : "@id"
+    },
+    "solicitorGeneral" : {
+      "@id" : "http://dbpedia.org/ontology/solicitorGeneral",
+      "@type" : "@id"
+    },
+    "Celebrity" : {
+      "@id" : "http://dbpedia.org/ontology/Celebrity"
+    },
+    "designer" : {
+      "@id" : "http://dbpedia.org/ontology/designer",
+      "@type" : "@id"
+    },
+    "Artist" : {
+      "@id" : "http://dbpedia.org/ontology/Artist"
+    },
+    "deathCause" : {
+      "@id" : "http://dbpedia.org/ontology/deathCause"
+    },
+    "expedition" : {
+      "@id" : "http://dbpedia.org/ontology/expedition"
+    },
+    "startWct" : {
+      "@id" : "http://dbpedia.org/ontology/startWct"
+    },
+    "poleDriver" : {
+      "@id" : "http://dbpedia.org/ontology/poleDriver",
+      "@type" : "@id"
+    },
+    "breeder" : {
+      "@id" : "http://dbpedia.org/ontology/breeder",
+      "@type" : "@id"
+    },
+    "electionDate" : {
+      "@id" : "http://dbpedia.org/ontology/electionDate"
+    },
+    "chiefEditor" : {
+      "@id" : "http://dbpedia.org/ontology/chiefEditor",
+      "@type" : "@id"
+    },
+    "child" : {
+      "@id" : "http://dbpedia.org/ontology/child",
+      "@type" : "@id"
+    },
+    "Mine" : {
+      "@id" : "http://dbpedia.org/ontology/Mine"
+    },
+    "thirdDriver" : {
+      "@id" : "http://dbpedia.org/ontology/thirdDriver",
+      "@type" : "@id"
+    },
+    "secondLeader" : {
+      "@id" : "http://dbpedia.org/ontology/secondLeader",
+      "@type" : "@id"
+    },
+    "provost" : {
+      "@id" : "http://dbpedia.org/ontology/provost",
+      "@type" : "@id"
+    },
+    "imposedDanseCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/imposedDanseCompetition"
+    },
+    "Presenter" : {
+      "@id" : "http://dbpedia.org/ontology/Presenter"
+    },
+    "heir" : {
+      "@id" : "http://dbpedia.org/ontology/heir",
+      "@type" : "@id"
+    },
+    "deathPlace" : {
+      "@id" : "http://dbpedia.org/ontology/deathPlace"
+    },
+    "patron" : {
+      "@id" : "http://dbpedia.org/ontology/patron",
+      "@type" : "@id"
+    },
+    "Architect" : {
+      "@id" : "http://dbpedia.org/ontology/Architect"
+    },
+    "father" : {
+      "@id" : "http://dbpedia.org/ontology/father",
+      "@type" : "@id"
+    },
+    "activity" : {
+      "@id" : "http://dbpedia.org/ontology/activity"
+    },
+    "salary" : {
+      "@id" : "http://dbpedia.org/ontology/salary"
+    },
+    "networth" : {
+      "@id" : "http://dbpedia.org/ontology/networth"
+    },
+    "narrator" : {
+      "@id" : "http://dbpedia.org/ontology/narrator",
+      "@type" : "@id"
+    },
+    "deathDate" : {
+      "@id" : "http://dbpedia.org/ontology/deathDate"
+    },
+    "storyEditor" : {
+      "@id" : "http://dbpedia.org/ontology/storyEditor",
+      "@type" : "@id"
+    },
+    "director" : {
+      "@id" : "http://dbpedia.org/ontology/director",
+      "@type" : "@id"
+    },
+    "awardName" : {
+      "@id" : "http://dbpedia.org/ontology/awardName"
+    },
+    "administrator" : {
+      "@id" : "http://dbpedia.org/ontology/administrator",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "firstDriver" : {
+      "@id" : "http://dbpedia.org/ontology/firstDriver",
+      "@type" : "@id"
+    },
+    "Aristocrat" : {
+      "@id" : "http://dbpedia.org/ontology/Aristocrat"
+    },
+    "costumeDesigner" : {
+      "@id" : "http://dbpedia.org/ontology/costumeDesigner",
+      "@type" : "@id"
+    },
+    "tessitura" : {
+      "@id" : "http://dbpedia.org/ontology/tessitura"
+    },
+    "author" : {
+      "@id" : "http://dbpedia.org/ontology/author",
+      "@type" : "@id"
+    },
+    "discoverer" : {
+      "@id" : "http://dbpedia.org/ontology/discoverer",
+      "@type" : "@id"
+    },
+    "doctoralAdvisor" : {
+      "@id" : "http://dbpedia.org/ontology/doctoralAdvisor",
+      "@type" : "@id"
+    },
+    "parent" : {
+      "@id" : "http://dbpedia.org/ontology/parent",
+      "@type" : "@id"
+    },
+    "coExecutiveProducer" : {
+      "@id" : "http://dbpedia.org/ontology/coExecutiveProducer",
+      "@type" : "@id"
+    },
+    "project" : {
+      "@id" : "http://dbpedia.org/ontology/project"
+    },
+    "choreographer" : {
+      "@id" : "http://dbpedia.org/ontology/choreographer",
+      "@type" : "@id"
+    },
+    "familyMember" : {
+      "@id" : "http://dbpedia.org/ontology/familyMember",
+      "@type" : "@id"
+    },
+    "second" : {
+      "@id" : "http://dbpedia.org/ontology/second"
+    },
+    "proSince" : {
+      "@id" : "http://dbpedia.org/ontology/proSince"
+    },
+    "continentalTournamentBronze" : {
+      "@id" : "http://dbpedia.org/ontology/continentalTournamentBronze"
+    },
+    "runningMate" : {
+      "@id" : "http://dbpedia.org/ontology/runningMate",
+      "@type" : "@id"
+    },
+    "sibling" : {
+      "@id" : "http://dbpedia.org/ontology/sibling",
+      "@type" : "@id"
+    },
+    "MovieDirector" : {
+      "@id" : "http://dbpedia.org/ontology/MovieDirector"
+    },
+    "dubber" : {
+      "@id" : "http://dbpedia.org/ontology/dubber",
+      "@type" : "@id"
+    },
+    "monarch" : {
+      "@id" : "http://dbpedia.org/ontology/monarch",
+      "@type" : "@id"
+    },
+    "originalDanseCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/originalDanseCompetition"
+    },
+    "coalition" : {
+      "@id" : "http://dbpedia.org/ontology/coalition"
+    },
+    "shoot" : {
+      "@id" : "http://dbpedia.org/ontology/shoot"
+    },
+    "mother" : {
+      "@id" : "http://dbpedia.org/ontology/mother",
+      "@type" : "@id"
+    },
+    "speciality" : {
+      "@id" : "http://dbpedia.org/ontology/speciality"
+    },
+    "Archeologist" : {
+      "@id" : "http://dbpedia.org/ontology/Archeologist"
+    },
+    "bronzeMedalist" : {
+      "@id" : "http://dbpedia.org/ontology/bronzeMedalist",
+      "@type" : "@id"
+    },
+    "worldTournamentSilver" : {
+      "@id" : "http://dbpedia.org/ontology/worldTournamentSilver"
+    },
+    "NaturalPerson" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"
+    },
+    "iihfHof" : {
+      "@id" : "http://dbpedia.org/ontology/iihfHof"
+    },
+    "activeYearsStartYearMgr" : {
+      "@id" : "http://dbpedia.org/ontology/activeYearsStartYearMgr"
+    },
+    "Activity" : {
+      "@id" : "http://dbpedia.org/ontology/Activity"
+    },
+    "waistSize" : {
+      "@id" : "http://dbpedia.org/ontology/waistSize"
+    },
+    "creativeDirector" : {
+      "@id" : "http://dbpedia.org/ontology/creativeDirector",
+      "@type" : "@id"
+    },
+    "Escalator" : {
+      "@id" : "http://dbpedia.org/ontology/Escalator"
+    },
+    "nonProfessionalCareer" : {
+      "@id" : "http://dbpedia.org/ontology/nonProfessionalCareer"
+    },
+    "politicalFunction" : {
+      "@id" : "http://dbpedia.org/ontology/politicalFunction"
+    },
+    "formerChoreographer" : {
+      "@id" : "http://dbpedia.org/ontology/formerChoreographer",
+      "@type" : "@id"
+    },
+    "proPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/proPeriod"
+    },
+    "HorseTrainer" : {
+      "@id" : "http://dbpedia.org/ontology/HorseTrainer"
+    },
+    "trustee" : {
+      "@id" : "http://dbpedia.org/ontology/trustee",
+      "@type" : "@id"
+    },
+    "publication" : {
+      "@id" : "http://dbpedia.org/ontology/publication"
+    },
+    "hairColour" : {
+      "@id" : "http://dbpedia.org/ontology/hairColour"
+    },
+    "third" : {
+      "@id" : "http://dbpedia.org/ontology/third"
+    },
+    "Event" : {
+      "@id" : "http://dbpedia.org/ontology/Event"
+    },
+    "Q5" : {
+      "@id" : "http://www.wikidata.org/entity/Q5"
+    },
+    "leadership" : {
+      "@id" : "http://dbpedia.org/ontology/leadership"
+    },
+    "restingDate" : {
+      "@id" : "http://dbpedia.org/ontology/restingDate"
+    },
+    "seasonManager" : {
+      "@id" : "http://dbpedia.org/ontology/seasonManager"
+    },
+    "hand" : {
+      "@id" : "http://dbpedia.org/ontology/hand"
+    },
+    "Orphan" : {
+      "@id" : "http://dbpedia.org/ontology/Orphan"
+    },
+    "catch" : {
+      "@id" : "http://dbpedia.org/ontology/catch"
+    },
+    "college" : {
+      "@id" : "http://dbpedia.org/ontology/college"
+    },
+    "formerPartner" : {
+      "@id" : "http://dbpedia.org/ontology/formerPartner",
+      "@type" : "@id"
+    },
+    "appointer" : {
+      "@id" : "http://dbpedia.org/ontology/appointer",
+      "@type" : "@id"
+    },
+    "externalOrnament" : {
+      "@id" : "http://dbpedia.org/ontology/externalOrnament"
+    },
+    "Coach" : {
+      "@id" : "http://dbpedia.org/ontology/Coach"
+    },
+    "doctoralStudent" : {
+      "@id" : "http://dbpedia.org/ontology/doctoralStudent",
+      "@type" : "@id"
+    },
+    "defines" : {
+      "@id" : "http://open.vocab.org/terms/defines"
+    },
+    "Person" : {
+      "@id" : "http://dbpedia.org/ontology/Person"
+    },
+    "polePosition" : {
+      "@id" : "http://dbpedia.org/ontology/polePosition"
+    },
+    "Writer" : {
+      "@id" : "http://dbpedia.org/ontology/Writer"
+    },
+    "mainDomain" : {
+      "@id" : "http://dbpedia.org/ontology/mainDomain"
+    },
+    "tvShow" : {
+      "@id" : "http://dbpedia.org/ontology/tvShow"
+    },
+    "firstLeader" : {
+      "@id" : "http://dbpedia.org/ontology/firstLeader",
+      "@type" : "@id"
+    },
+    "executiveHeadteacher" : {
+      "@id" : "http://dbpedia.org/ontology/executiveHeadteacher",
+      "@type" : "@id"
+    },
+    "pseudonym" : {
+      "@id" : "http://dbpedia.org/ontology/pseudonym"
+    },
+    "firstWinner" : {
+      "@id" : "http://dbpedia.org/ontology/firstWinner",
+      "@type" : "@id"
+    },
+    "startCareer" : {
+      "@id" : "http://dbpedia.org/ontology/startCareer"
+    },
+    "BeautyQueen" : {
+      "@id" : "http://dbpedia.org/ontology/BeautyQueen"
+    },
+    "HistoricalPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/HistoricalPeriod"
+    },
+    "lieutenant" : {
+      "@id" : "http://dbpedia.org/ontology/lieutenant",
+      "@type" : "@id"
+    },
+    "Referee" : {
+      "@id" : "http://dbpedia.org/ontology/Referee"
+    },
+    "coverArtist" : {
+      "@id" : "http://dbpedia.org/ontology/coverArtist",
+      "@type" : "@id"
+    },
+    "Astronaut" : {
+      "@id" : "http://dbpedia.org/ontology/Astronaut"
+    },
+    "Agent" : {
+      "@id" : "http://dbpedia.org/ontology/Agent"
+    },
+    "attorneyGeneral" : {
+      "@id" : "http://dbpedia.org/ontology/attorneyGeneral",
+      "@type" : "@id"
+    },
+    "fourthCommander" : {
+      "@id" : "http://dbpedia.org/ontology/fourthCommander",
+      "@type" : "@id"
+    },
+    "clothSize" : {
+      "@id" : "http://dbpedia.org/ontology/clothSize"
+    },
+    "friend" : {
+      "@id" : "http://dbpedia.org/ontology/friend",
+      "@type" : "@id"
+    },
+    "olympicGamesBronze" : {
+      "@id" : "http://dbpedia.org/ontology/olympicGamesBronze"
+    },
+    "lyrics" : {
+      "@id" : "http://dbpedia.org/ontology/lyrics",
+      "@type" : "@id"
+    },
+    "livingPlace" : {
+      "@id" : "http://dbpedia.org/ontology/livingPlace"
+    },
+    "weapon" : {
+      "@id" : "http://dbpedia.org/ontology/weapon"
+    },
+    "noteOnRestingPlace" : {
+      "@id" : "http://dbpedia.org/ontology/noteOnRestingPlace"
+    },
+    "specialTrial" : {
+      "@id" : "http://dbpedia.org/ontology/specialTrial"
+    },
+    "deadInFightPlace" : {
+      "@id" : "http://dbpedia.org/ontology/deadInFightPlace"
+    },
+    "Tower" : {
+      "@id" : "http://dbpedia.org/ontology/Tower"
+    },
+    "Producer" : {
+      "@id" : "http://dbpedia.org/ontology/Producer"
+    },
+    "hasNaturalBust" : {
+      "@id" : "http://dbpedia.org/ontology/hasNaturalBust"
+    },
+    "On-SiteTransportation" : {
+      "@id" : "http://dbpedia.org/ontology/On-SiteTransportation"
+    },
+    "freeProgCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/freeProgCompetition"
+    },
+    "teamManager" : {
+      "@id" : "http://dbpedia.org/ontology/teamManager"
+    },
+    "educationPlace" : {
+      "@id" : "http://dbpedia.org/ontology/educationPlace"
+    },
+    "continentalTournamentSilver" : {
+      "@id" : "http://dbpedia.org/ontology/continentalTournamentSilver"
+    },
+    "foot" : {
+      "@id" : "http://dbpedia.org/ontology/foot"
+    },
+    "Building" : {
+      "@id" : "http://dbpedia.org/ontology/Building"
+    },
+    "cinematography" : {
+      "@id" : "http://dbpedia.org/ontology/cinematography",
+      "@type" : "@id"
+    },
+    "Lawyer" : {
+      "@id" : "http://dbpedia.org/ontology/Lawyer"
+    },
+    "describedby" : {
+      "@id" : "http://www.w3.org/2007/05/powder-s#describedby"
+    },
+    "bodyDiscovered" : {
+      "@id" : "http://dbpedia.org/ontology/bodyDiscovered"
+    },
+    "TimePeriod" : {
+      "@id" : "http://dbpedia.org/ontology/TimePeriod"
+    },
+    "usurper" : {
+      "@id" : "http://dbpedia.org/ontology/usurper",
+      "@type" : "@id"
+    },
+    "movie" : {
+      "@id" : "http://dbpedia.org/ontology/movie"
+    },
+    "incumbent" : {
+      "@id" : "http://dbpedia.org/ontology/incumbent",
+      "@type" : "@id"
+    },
+    "illustrator" : {
+      "@id" : "http://dbpedia.org/ontology/illustrator",
+      "@type" : "@id"
+    },
+    "translator" : {
+      "@id" : "http://dbpedia.org/ontology/translator",
+      "@type" : "@id"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+    },
+    "firstAscentPerson" : {
+      "@id" : "http://dbpedia.org/ontology/firstAscentPerson",
+      "@type" : "@id"
+    },
+    "chef" : {
+      "@id" : "http://dbpedia.org/ontology/chef",
+      "@type" : "@id"
+    },
+    "currentPartner" : {
+      "@id" : "http://dbpedia.org/ontology/currentPartner",
+      "@type" : "@id"
+    },
+    "mainCharacter" : {
+      "@id" : "http://dbpedia.org/ontology/mainCharacter",
+      "@type" : "@id"
+    },
+    "templeYear" : {
+      "@id" : "http://dbpedia.org/ontology/templeYear"
+    },
+    "spokesperson" : {
+      "@id" : "http://dbpedia.org/ontology/spokesperson",
+      "@type" : "@id"
+    },
+    "handedness" : {
+      "@id" : "http://dbpedia.org/ontology/handedness"
+    },
+    "pgaWins" : {
+      "@id" : "http://dbpedia.org/ontology/pgaWins"
+    },
+    "Model" : {
+      "@id" : "http://dbpedia.org/ontology/Model"
+    },
+    "astrologicalSign" : {
+      "@id" : "http://dbpedia.org/ontology/astrologicalSign"
+    },
+    "restingPlace" : {
+      "@id" : "http://dbpedia.org/ontology/restingPlace"
+    },
+    "Engineer" : {
+      "@id" : "http://dbpedia.org/ontology/Engineer"
+    },
+    "curator" : {
+      "@id" : "http://dbpedia.org/ontology/curator",
+      "@type" : "@id"
+    },
+    "victory" : {
+      "@id" : "http://dbpedia.org/ontology/victory"
+    },
+    "person" : {
+      "@id" : "http://dbpedia.org/ontology/person",
+      "@type" : "@id"
+    },
+    "reign" : {
+      "@id" : "http://dbpedia.org/ontology/reign"
+    },
+    "reignName" : {
+      "@id" : "http://dbpedia.org/ontology/reignName"
+    },
+    "cousurper" : {
+      "@id" : "http://dbpedia.org/ontology/cousurper",
+      "@type" : "@id"
+    },
+    "radio" : {
+      "@id" : "http://dbpedia.org/ontology/radio"
+    },
+    "composer" : {
+      "@id" : "http://dbpedia.org/ontology/composer",
+      "@type" : "@id"
+    },
+    "lastFamilyMember" : {
+      "@id" : "http://dbpedia.org/ontology/lastFamilyMember",
+      "@type" : "@id"
+    },
+    "birthYear" : {
+      "@id" : "http://dbpedia.org/ontology/birthYear"
+    },
+    "stateDelegate" : {
+      "@id" : "http://dbpedia.org/ontology/stateDelegate",
+      "@type" : "@id"
+    },
+    "worldTournament" : {
+      "@id" : "http://dbpedia.org/ontology/worldTournament"
+    },
+    "photographer" : {
+      "@id" : "http://dbpedia.org/ontology/photographer",
+      "@type" : "@id"
+    },
+    "student" : {
+      "@id" : "http://dbpedia.org/ontology/student",
+      "@type" : "@id"
+    },
+    "approach" : {
+      "@id" : "http://dbpedia.org/ontology/approach"
+    },
+    "setDesigner" : {
+      "@id" : "http://dbpedia.org/ontology/setDesigner",
+      "@type" : "@id"
+    },
+    "coach" : {
+      "@id" : "http://dbpedia.org/ontology/coach",
+      "@type" : "@id"
+    },
+    "dean" : {
+      "@id" : "http://dbpedia.org/ontology/dean",
+      "@type" : "@id"
+    },
+    "worldTournamentBronze" : {
+      "@id" : "http://dbpedia.org/ontology/worldTournamentBronze"
+    },
+    "deathYear" : {
+      "@id" : "http://dbpedia.org/ontology/deathYear"
+    },
+    "Scientist" : {
+      "@id" : "http://dbpedia.org/ontology/Scientist"
+    },
+    "editing" : {
+      "@id" : "http://dbpedia.org/ontology/editing",
+      "@type" : "@id"
+    },
+    "secretaryGeneral" : {
+      "@id" : "http://dbpedia.org/ontology/secretaryGeneral",
+      "@type" : "@id"
+    },
+    "victoryAsMgr" : {
+      "@id" : "http://dbpedia.org/ontology/victoryAsMgr"
+    },
+    "start" : {
+      "@id" : "http://dbpedia.org/ontology/start"
+    },
+    "clothingSize" : {
+      "@id" : "http://dbpedia.org/ontology/clothingSize"
+    },
+    "case" : {
+      "@id" : "http://dbpedia.org/ontology/case"
+    },
+    "diploma" : {
+      "@id" : "http://dbpedia.org/ontology/diploma"
+    },
+    "Royalty" : {
+      "@id" : "http://dbpedia.org/ontology/Royalty"
+    },
+    "otherMedia" : {
+      "@id" : "http://dbpedia.org/ontology/otherMedia"
+    },
+    "Noble" : {
+      "@id" : "http://dbpedia.org/ontology/Noble"
+    },
+    "britishWins" : {
+      "@id" : "http://dbpedia.org/ontology/britishWins"
+    },
+    "tattoo" : {
+      "@id" : "http://dbpedia.org/ontology/tattoo"
+    },
+    "nationalTournament" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTournament"
+    },
+    "filmNumber" : {
+      "@id" : "http://dbpedia.org/ontology/filmNumber"
+    },
+    "Politician" : {
+      "@id" : "http://dbpedia.org/ontology/Politician"
+    },
+    "careerStation" : {
+      "@id" : "http://dbpedia.org/ontology/careerStation"
+    },
+    "originalDanseScore" : {
+      "@id" : "http://dbpedia.org/ontology/originalDanseScore"
+    },
+    "prefaceBy" : {
+      "@id" : "http://dbpedia.org/ontology/prefaceBy",
+      "@type" : "@id"
+    },
+    "officerInCharge" : {
+      "@id" : "http://dbpedia.org/ontology/officerInCharge",
+      "@type" : "@id"
+    },
+    "deputy" : {
+      "@id" : "http://dbpedia.org/ontology/deputy",
+      "@type" : "@id"
+    },
+    "presidentGeneralCouncil" : {
+      "@id" : "http://dbpedia.org/ontology/presidentGeneralCouncil",
+      "@type" : "@id"
+    },
+    "placeOfBurial" : {
+      "@id" : "http://dbpedia.org/ontology/placeOfBurial"
+    },
+    "relatedFunctions" : {
+      "@id" : "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    "presenter" : {
+      "@id" : "http://dbpedia.org/ontology/presenter",
+      "@type" : "@id"
+    },
+    "personFunction" : {
+      "@id" : "http://dbpedia.org/ontology/personFunction"
+    },
+    "freeScoreCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/freeScoreCompetition"
+    },
+    "firstPopularVote" : {
+      "@id" : "http://dbpedia.org/ontology/firstPopularVote",
+      "@type" : "@id"
+    },
+    "matchPoint" : {
+      "@id" : "http://dbpedia.org/ontology/matchPoint"
+    },
+    "signature" : {
+      "@id" : "http://dbpedia.org/ontology/signature"
+    },
+    "goldMedalist" : {
+      "@id" : "http://dbpedia.org/ontology/goldMedalist",
+      "@type" : "@id"
+    },
+    "particularSign" : {
+      "@id" : "http://dbpedia.org/ontology/particularSign"
+    },
+    "copilote" : {
+      "@id" : "http://dbpedia.org/ontology/copilote",
+      "@type" : "@id"
+    },
+    "showJudge" : {
+      "@id" : "http://dbpedia.org/ontology/showJudge",
+      "@type" : "@id"
+    },
+    "birthPlace" : {
+      "@id" : "http://dbpedia.org/ontology/birthPlace"
+    },
+    "nobelLaureates" : {
+      "@id" : "http://dbpedia.org/ontology/nobelLaureates",
+      "@type" : "@id"
+    },
+    "Monarch" : {
+      "@id" : "http://dbpedia.org/ontology/Monarch"
+    },
+    "decoration" : {
+      "@id" : "http://dbpedia.org/ontology/decoration"
+    },
+    "taoiseach" : {
+      "@id" : "http://dbpedia.org/ontology/taoiseach",
+      "@type" : "@id"
+    },
+    "spouse" : {
+      "@id" : "http://dbpedia.org/ontology/spouse",
+      "@type" : "@id"
+    },
+    "secondPopularVote" : {
+      "@id" : "http://dbpedia.org/ontology/secondPopularVote",
+      "@type" : "@id"
+    },
+    "chaplain" : {
+      "@id" : "http://dbpedia.org/ontology/chaplain",
+      "@type" : "@id"
+    },
+    "hipSize" : {
+      "@id" : "http://dbpedia.org/ontology/hipSize"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "sportDiscipline" : {
+      "@id" : "http://dbpedia.org/ontology/sportDiscipline"
+    },
+    "federation" : {
+      "@id" : "http://dbpedia.org/ontology/federation"
+    },
+    "flagBearer" : {
+      "@id" : "http://dbpedia.org/ontology/flagBearer",
+      "@type" : "@id"
+    },
+    "deadInFightDate" : {
+      "@id" : "http://dbpedia.org/ontology/deadInFightDate"
+    },
+    "trainer" : {
+      "@id" : "http://dbpedia.org/ontology/trainer",
+      "@type" : "@id"
+    },
+    "engineer" : {
+      "@id" : "http://dbpedia.org/ontology/engineer",
+      "@type" : "@id"
+    },
+    "olympicOathSwornByJudge" : {
+      "@id" : "http://dbpedia.org/ontology/olympicOathSwornByJudge",
+      "@type" : "@id"
+    },
+    "imposedDanseScore" : {
+      "@id" : "http://dbpedia.org/ontology/imposedDanseScore"
+    },
+    "secondDriver" : {
+      "@id" : "http://dbpedia.org/ontology/secondDriver",
+      "@type" : "@id"
+    },
+    "fullScore" : {
+      "@id" : "http://dbpedia.org/ontology/fullScore"
+    },
+    "opponent" : {
+      "@id" : "http://dbpedia.org/ontology/opponent",
+      "@type" : "@id"
+    },
+    "writer" : {
+      "@id" : "http://dbpedia.org/ontology/writer",
+      "@type" : "@id"
+    },
+    "headteacher" : {
+      "@id" : "http://dbpedia.org/ontology/headteacher",
+      "@type" : "@id"
+    },
+    "arrestDate" : {
+      "@id" : "http://dbpedia.org/ontology/arrestDate"
+    },
+    "allegiance" : {
+      "@id" : "http://dbpedia.org/ontology/allegiance"
+    },
+    "titleDate" : {
+      "@id" : "http://dbpedia.org/ontology/titleDate"
+    },
+    "bourgmestre" : {
+      "@id" : "http://dbpedia.org/ontology/bourgmestre",
+      "@type" : "@id"
+    },
+    "head" : {
+      "@id" : "http://dbpedia.org/ontology/head",
+      "@type" : "@id"
+    },
+    "beatifiedBy" : {
+      "@id" : "http://dbpedia.org/ontology/beatifiedBy",
+      "@type" : "@id"
+    },
+    "notableIdea" : {
+      "@id" : "http://dbpedia.org/ontology/notableIdea"
+    },
+    "RomanEmperor" : {
+      "@id" : "http://dbpedia.org/ontology/RomanEmperor"
+    },
+    "usopenWins" : {
+      "@id" : "http://dbpedia.org/ontology/usopenWins"
+    },
+    "musicBy" : {
+      "@id" : "http://dbpedia.org/ontology/musicBy",
+      "@type" : "@id"
+    },
+    "competitionTitle" : {
+      "@id" : "http://dbpedia.org/ontology/competitionTitle"
+    },
+    "vicePrincipal" : {
+      "@id" : "http://dbpedia.org/ontology/vicePrincipal",
+      "@type" : "@id"
+    },
+    "grave" : {
+      "@id" : "http://dbpedia.org/ontology/grave"
+    },
+    "currentTeamManager" : {
+      "@id" : "http://dbpedia.org/ontology/currentTeamManager"
+    },
+    "announcedFrom" : {
+      "@id" : "http://dbpedia.org/ontology/announcedFrom"
+    },
+    "circumcised" : {
+      "@id" : "http://dbpedia.org/ontology/circumcised"
+    },
+    "dateOfBurial" : {
+      "@id" : "http://dbpedia.org/ontology/dateOfBurial"
+    },
+    "restingPlacePosition" : {
+      "@id" : "http://dbpedia.org/ontology/restingPlacePosition"
+    },
+    "escalafon" : {
+      "@id" : "http://dbpedia.org/ontology/escalafon"
+    },
+    "executiveProducer" : {
+      "@id" : "http://dbpedia.org/ontology/executiveProducer",
+      "@type" : "@id"
+    },
+    "MovingWalkway" : {
+      "@id" : "http://dbpedia.org/ontology/MovingWalkway"
+    },
+    "birthDate" : {
+      "@id" : "http://dbpedia.org/ontology/birthDate"
+    },
+    "PoliticianSpouse" : {
+      "@id" : "http://dbpedia.org/ontology/PoliticianSpouse"
+    },
+    "secondCommander" : {
+      "@id" : "http://dbpedia.org/ontology/secondCommander",
+      "@type" : "@id"
+    },
+    "collaboration" : {
+      "@id" : "http://dbpedia.org/ontology/collaboration",
+      "@type" : "@id"
+    },
+    "primogenitor" : {
+      "@id" : "http://dbpedia.org/ontology/primogenitor",
+      "@type" : "@id"
+    },
+    "TelevisionDirector" : {
+      "@id" : "http://dbpedia.org/ontology/TelevisionDirector"
+    },
+    "hairColor" : {
+      "@id" : "http://dbpedia.org/ontology/hairColor"
+    },
+    "lahHof" : {
+      "@id" : "http://dbpedia.org/ontology/lahHof"
+    },
+    "activeYears" : {
+      "@id" : "http://dbpedia.org/ontology/activeYears"
+    },
+    "linguisticsTradition" : {
+      "@id" : "http://dbpedia.org/ontology/linguisticsTradition"
+    },
+    "creatorOfDish" : {
+      "@id" : "http://dbpedia.org/ontology/creatorOfDish",
+      "@type" : "@id"
+    },
+    "Religious" : {
+      "@id" : "http://dbpedia.org/ontology/Religious"
+    },
+    "agency" : {
+      "@id" : "http://dbpedia.org/ontology/agency"
+    },
+    "notableCommander" : {
+      "@id" : "http://dbpedia.org/ontology/notableCommander",
+      "@type" : "@id"
+    },
+    "complexion" : {
+      "@id" : "http://dbpedia.org/ontology/complexion"
+    },
+    "torchBearer" : {
+      "@id" : "http://dbpedia.org/ontology/torchBearer",
+      "@type" : "@id"
+    },
+    "officialOpenedBy" : {
+      "@id" : "http://dbpedia.org/ontology/officialOpenedBy",
+      "@type" : "@id"
+    },
+    "startWqs" : {
+      "@id" : "http://dbpedia.org/ontology/startWqs"
+    },
+    "Criminal" : {
+      "@id" : "http://dbpedia.org/ontology/Criminal"
+    },
+    "viceChancellor" : {
+      "@id" : "http://dbpedia.org/ontology/viceChancellor",
+      "@type" : "@id"
+    },
+    "juniorYearsStartYear" : {
+      "@id" : "http://dbpedia.org/ontology/juniorYearsStartYear"
+    },
+    "shortProgScore" : {
+      "@id" : "http://dbpedia.org/ontology/shortProgScore"
+    },
+    "Mountain" : {
+      "@id" : "http://dbpedia.org/ontology/Mountain"
+    },
+    "bandMember" : {
+      "@id" : "http://dbpedia.org/ontology/bandMember",
+      "@type" : "@id"
+    },
+    "alumni" : {
+      "@id" : "http://dbpedia.org/ontology/alumni",
+      "@type" : "@id"
+    },
+    "freeProgScore" : {
+      "@id" : "http://dbpedia.org/ontology/freeProgScore"
+    },
+    "otherOccupation" : {
+      "@id" : "http://dbpedia.org/ontology/otherOccupation"
+    },
+    "reffBourgmestre" : {
+      "@id" : "http://dbpedia.org/ontology/reffBourgmestre",
+      "@type" : "@id"
+    },
+    "shoeSize" : {
+      "@id" : "http://dbpedia.org/ontology/shoeSize"
+    },
+    "nationalTournamentGold" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTournamentGold"
+    },
+    "weddingParentsDate" : {
+      "@id" : "http://dbpedia.org/ontology/weddingParentsDate"
+    },
+    "danseScore" : {
+      "@id" : "http://dbpedia.org/ontology/danseScore"
+    },
+    "presidentRegionalCouncil" : {
+      "@id" : "http://dbpedia.org/ontology/presidentRegionalCouncil",
+      "@type" : "@id"
+    },
+    "voice" : {
+      "@id" : "http://dbpedia.org/ontology/voice",
+      "@type" : "@id"
+    },
+    "guest" : {
+      "@id" : "http://dbpedia.org/ontology/guest",
+      "@type" : "@id"
+    },
+    "nationalTournamentBronze" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTournamentBronze"
+    },
+    "endCareer" : {
+      "@id" : "http://dbpedia.org/ontology/endCareer"
+    },
+    "bigPoolRecord" : {
+      "@id" : "http://dbpedia.org/ontology/bigPoolRecord"
+    },
+    "statusManager" : {
+      "@id" : "http://dbpedia.org/ontology/statusManager"
+    },
+    "shortProgCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/shortProgCompetition"
+    },
+    "retirementDate" : {
+      "@id" : "http://dbpedia.org/ontology/retirementDate"
+    },
+    "eyeColor" : {
+      "@id" : "http://dbpedia.org/ontology/eyeColor"
+    },
+    "manager" : {
+      "@id" : "http://dbpedia.org/ontology/manager",
+      "@type" : "@id"
+    },
+    "specialEffects" : {
+      "@id" : "http://dbpedia.org/ontology/specialEffects",
+      "@type" : "@id"
+    },
+    "Q215627" : {
+      "@id" : "http://www.wikidata.org/entity/Q215627"
+    },
+    "ConveyorSystem" : {
+      "@id" : "http://dbpedia.org/ontology/ConveyorSystem"
+    },
+    "Chef" : {
+      "@id" : "http://dbpedia.org/ontology/Chef"
+    },
+    "patronSaint" : {
+      "@id" : "http://dbpedia.org/ontology/patronSaint",
+      "@type" : "@id"
+    },
+    "spouseName" : {
+      "@id" : "http://dbpedia.org/ontology/spouseName"
+    },
+    "president" : {
+      "@id" : "http://dbpedia.org/ontology/president",
+      "@type" : "@id"
+    },
+    "derivedWord" : {
+      "@id" : "http://dbpedia.org/ontology/derivedWord"
+    },
+    "Ambassador" : {
+      "@id" : "http://dbpedia.org/ontology/Ambassador"
+    },
+    "board" : {
+      "@id" : "http://dbpedia.org/ontology/board"
+    },
+    "partner" : {
+      "@id" : "http://dbpedia.org/ontology/partner",
+      "@type" : "@id"
+    },
+    "nationalTeamMatchPoint" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTeamMatchPoint"
+    },
+    "sex" : {
+      "@id" : "http://dbpedia.org/ontology/sex"
+    },
+    "convictionDate" : {
+      "@id" : "http://dbpedia.org/ontology/convictionDate"
+    },
+    "prefect" : {
+      "@id" : "http://dbpedia.org/ontology/prefect",
+      "@type" : "@id"
+    },
+    "employer" : {
+      "@id" : "http://dbpedia.org/ontology/employer"
+    },
+    "primeMinister" : {
+      "@id" : "http://dbpedia.org/ontology/primeMinister",
+      "@type" : "@id"
+    },
+    "colleague" : {
+      "@id" : "http://dbpedia.org/ontology/colleague",
+      "@type" : "@id"
+    },
+    "achievement" : {
+      "@id" : "http://dbpedia.org/ontology/achievement"
+    },
+    "principalEngineer" : {
+      "@id" : "http://dbpedia.org/ontology/principalEngineer",
+      "@type" : "@id"
+    },
+    "otherFunction" : {
+      "@id" : "http://dbpedia.org/ontology/otherFunction"
+    },
+    "startReign" : {
+      "@id" : "http://dbpedia.org/ontology/startReign"
+    },
+    "relative" : {
+      "@id" : "http://dbpedia.org/ontology/relative",
+      "@type" : "@id"
+    },
+    "GeologicalPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/GeologicalPeriod"
+    },
+    "sportsFunction" : {
+      "@id" : "http://dbpedia.org/ontology/sportsFunction"
+    },
+    "Cleric" : {
+      "@id" : "http://dbpedia.org/ontology/Cleric"
+    },
+    "mount" : {
+      "@id" : "http://dbpedia.org/ontology/mount"
+    },
+    "jutsu" : {
+      "@id" : "http://dbpedia.org/ontology/jutsu"
+    },
+    "previousEditor" : {
+      "@id" : "http://dbpedia.org/ontology/previousEditor",
+      "@type" : "@id"
+    },
+    "clubsRecordGoalscorer" : {
+      "@id" : "http://dbpedia.org/ontology/clubsRecordGoalscorer",
+      "@type" : "@id"
+    },
+    "deathAge" : {
+      "@id" : "http://dbpedia.org/ontology/deathAge"
+    },
+    "olympicGamesWins" : {
+      "@id" : "http://dbpedia.org/ontology/olympicGamesWins"
+    },
+    "individualisedPnd" : {
+      "@id" : "http://dbpedia.org/ontology/individualisedPnd"
+    },
+    "custodian" : {
+      "@id" : "http://dbpedia.org/ontology/custodian",
+      "@type" : "@id"
+    },
+    "alongside" : {
+      "@id" : "http://dbpedia.org/ontology/alongside",
+      "@type" : "@id"
+    },
+    "fastestDriver" : {
+      "@id" : "http://dbpedia.org/ontology/fastestDriver",
+      "@type" : "@id"
+    },
+    "penisLength" : {
+      "@id" : "http://dbpedia.org/ontology/penisLength"
+    },
+    "numberOfRun" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfRun"
+    },
+    "playerStatus" : {
+      "@id" : "http://dbpedia.org/ontology/playerStatus"
+    },
+    "Egyptologist" : {
+      "@id" : "http://dbpedia.org/ontology/Egyptologist"
+    },
+    "residence" : {
+      "@id" : "http://dbpedia.org/ontology/residence"
+    },
+    "commander" : {
+      "@id" : "http://dbpedia.org/ontology/commander",
+      "@type" : "@id"
+    },
+    "playerInTeam" : {
+      "@id" : "http://dbpedia.org/ontology/playerInTeam",
+      "@type" : "@id"
+    },
+    "MeanOfTransportation" : {
+      "@id" : "http://dbpedia.org/ontology/MeanOfTransportation"
+    },
+    "artisticFunction" : {
+      "@id" : "http://dbpedia.org/ontology/artisticFunction"
+    },
+    "podium" : {
+      "@id" : "http://dbpedia.org/ontology/podium"
+    },
+    "birthSign" : {
+      "@id" : "http://dbpedia.org/ontology/birthSign"
+    },
+    "nominee" : {
+      "@id" : "http://dbpedia.org/ontology/nominee",
+      "@type" : "@id"
+    },
+    "viceLeader" : {
+      "@id" : "http://dbpedia.org/ontology/viceLeader",
+      "@type" : "@id"
+    },
+    "nationalTeamYear" : {
+      "@id" : "http://dbpedia.org/ontology/nationalTeamYear"
+    },
+    "citizenship" : {
+      "@id" : "http://dbpedia.org/ontology/citizenship"
+    },
+    "bloodType" : {
+      "@id" : "http://dbpedia.org/ontology/bloodType"
+    },
+    "nationality" : {
+      "@id" : "http://dbpedia.org/ontology/nationality"
+    },
+    "contest" : {
+      "@id" : "http://dbpedia.org/ontology/contest"
+    },
+    "ceo" : {
+      "@id" : "http://dbpedia.org/ontology/ceo",
+      "@type" : "@id"
+    },
+    "makeupArtist" : {
+      "@id" : "http://dbpedia.org/ontology/makeupArtist",
+      "@type" : "@id"
+    },
+    "rector" : {
+      "@id" : "http://dbpedia.org/ontology/rector",
+      "@type" : "@id"
+    },
+    "commandant" : {
+      "@id" : "http://dbpedia.org/ontology/commandant",
+      "@type" : "@id"
+    },
+    "eyeColour" : {
+      "@id" : "http://dbpedia.org/ontology/eyeColour"
+    },
+    "sentence" : {
+      "@id" : "http://dbpedia.org/ontology/sentence"
+    },
+    "otherActivity" : {
+      "@id" : "http://dbpedia.org/ontology/otherActivity"
+    },
+    "handisport" : {
+      "@id" : "http://dbpedia.org/ontology/handisport"
+    },
+    "academicAdvisor" : {
+      "@id" : "http://dbpedia.org/ontology/academicAdvisor",
+      "@type" : "@id"
+    },
+    "painter" : {
+      "@id" : "http://dbpedia.org/ontology/painter",
+      "@type" : "@id"
+    },
+    "mastersWins" : {
+      "@id" : "http://dbpedia.org/ontology/mastersWins"
+    },
+    "keyPerson" : {
+      "@id" : "http://dbpedia.org/ontology/keyPerson",
+      "@type" : "@id"
+    },
+    "leagueManager" : {
+      "@id" : "http://dbpedia.org/ontology/leagueManager"
+    },
+    "recentWinner" : {
+      "@id" : "http://dbpedia.org/ontology/recentWinner",
+      "@type" : "@id"
+    },
+    "bustSize" : {
+      "@id" : "http://dbpedia.org/ontology/bustSize"
+    },
+    "generalManager" : {
+      "@id" : "http://dbpedia.org/ontology/generalManager",
+      "@type" : "@id"
+    },
+    "UnitOfWork" : {
+      "@id" : "http://dbpedia.org/ontology/UnitOfWork"
+    },
+    "superintendent" : {
+      "@id" : "http://dbpedia.org/ontology/superintendent",
+      "@type" : "@id"
+    },
+    "vicePrimeMinister" : {
+      "@id" : "http://dbpedia.org/ontology/vicePrimeMinister",
+      "@type" : "@id"
+    },
+    "governorGeneral" : {
+      "@id" : "http://dbpedia.org/ontology/governorGeneral",
+      "@type" : "@id"
+    },
+    "coProducer" : {
+      "@id" : "http://dbpedia.org/ontology/coProducer",
+      "@type" : "@id"
+    },
+    "sexualOrientation" : {
+      "@id" : "http://dbpedia.org/ontology/sexualOrientation"
+    },
+    "feat" : {
+      "@id" : "http://dbpedia.org/ontology/feat"
+    },
+    "Athlete" : {
+      "@id" : "http://dbpedia.org/ontology/Athlete"
+    },
+    "SportsManager" : {
+      "@id" : "http://dbpedia.org/ontology/SportsManager"
+    },
+    "affair" : {
+      "@id" : "http://dbpedia.org/ontology/affair"
+    },
+    "delegateMayor" : {
+      "@id" : "http://dbpedia.org/ontology/delegateMayor",
+      "@type" : "@id"
+    },
+    "weight" : {
+      "@id" : "http://dbpedia.org/ontology/Person/weight"
+    },
+    "orientation" : {
+      "@id" : "http://dbpedia.org/ontology/orientation"
+    },
+    "ProtohistoricalPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/ProtohistoricalPeriod"
+    },
+    "landeshauptmann" : {
+      "@id" : "http://dbpedia.org/ontology/landeshauptmann",
+      "@type" : "@id"
+    },
+    "world" : {
+      "@id" : "http://dbpedia.org/ontology/world"
+    },
+    "governor" : {
+      "@id" : "http://dbpedia.org/ontology/governor",
+      "@type" : "@id"
+    },
+    "patent" : {
+      "@id" : "http://dbpedia.org/ontology/patent"
+    },
+    "olympicGamesGold" : {
+      "@id" : "http://dbpedia.org/ontology/olympicGamesGold"
+    },
+    "activeYearsStartDateMgr" : {
+      "@id" : "http://dbpedia.org/ontology/activeYearsStartDateMgr"
+    },
+    "school" : {
+      "@id" : "http://dbpedia.org/ontology/school"
+    },
+    "PeriodOfArtisticStyle" : {
+      "@id" : "http://dbpedia.org/ontology/PeriodOfArtisticStyle"
+    },
+    "nndbId" : {
+      "@id" : "http://dbpedia.org/ontology/nndbId"
+    },
+    "formerBandMember" : {
+      "@id" : "http://dbpedia.org/ontology/formerBandMember",
+      "@type" : "@id"
+    },
+    "relation" : {
+      "@id" : "http://dbpedia.org/ontology/relation",
+      "@type" : "@id"
+    },
+    "associateEditor" : {
+      "@id" : "http://dbpedia.org/ontology/associateEditor",
+      "@type" : "@id"
+    },
+    "scene" : {
+      "@id" : "http://dbpedia.org/ontology/scene"
+    },
+    "fullCompetition" : {
+      "@id" : "http://dbpedia.org/ontology/fullCompetition"
+    },
+    "BusinessPerson" : {
+      "@id" : "http://dbpedia.org/ontology/BusinessPerson"
+    },
+    "headOfFamily" : {
+      "@id" : "http://dbpedia.org/ontology/headOfFamily",
+      "@type" : "@id"
+    },
+    "OrganisationMember" : {
+      "@id" : "http://dbpedia.org/ontology/OrganisationMember"
+    },
+    "shipCrew" : {
+      "@id" : "http://dbpedia.org/ontology/shipCrew",
+      "@type" : "@id"
+    },
+    "actingHeadteacher" : {
+      "@id" : "http://dbpedia.org/ontology/actingHeadteacher",
+      "@type" : "@id"
+    },
+    "performer" : {
+      "@id" : "http://dbpedia.org/ontology/performer",
+      "@type" : "@id"
+    },
+    "Farmer" : {
+      "@id" : "http://dbpedia.org/ontology/Farmer"
+    },
+    "shoeNumber" : {
+      "@id" : "http://dbpedia.org/ontology/shoeNumber"
+    }
+  }
+}

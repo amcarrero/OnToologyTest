@@ -1,0 +1,2524 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://dbpedia.org/ontology/achievement
+<http://dbpedia.org/ontology/achievement> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activeYears
+<http://dbpedia.org/ontology/activeYears> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activeYearsEndDateMgr
+<http://dbpedia.org/ontology/activeYearsEndDateMgr> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activeYearsEndYearMgr
+<http://dbpedia.org/ontology/activeYearsEndYearMgr> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activeYearsStartDateMgr
+<http://dbpedia.org/ontology/activeYearsStartDateMgr> rdf:type owl:AnnotationProperty ;
+                                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activeYearsStartYearMgr
+<http://dbpedia.org/ontology/activeYearsStartYearMgr> rdf:type owl:AnnotationProperty ;
+                                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/activity
+<http://dbpedia.org/ontology/activity> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/affair
+<http://dbpedia.org/ontology/affair> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/agency
+<http://dbpedia.org/ontology/agency> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/allegiance
+<http://dbpedia.org/ontology/allegiance> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/almaMater
+<http://dbpedia.org/ontology/almaMater> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/announcedFrom
+<http://dbpedia.org/ontology/announcedFrom> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/approach
+<http://dbpedia.org/ontology/approach> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/arrestDate
+<http://dbpedia.org/ontology/arrestDate> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/artisticFunction
+<http://dbpedia.org/ontology/artisticFunction> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/astrologicalSign
+<http://dbpedia.org/ontology/astrologicalSign> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/awardName
+<http://dbpedia.org/ontology/awardName> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/badGuy
+<http://dbpedia.org/ontology/badGuy> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bestLap
+<http://dbpedia.org/ontology/bestLap> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bigPoolRecord
+<http://dbpedia.org/ontology/bigPoolRecord> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/birthDate
+<http://dbpedia.org/ontology/birthDate> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/birthName
+<http://dbpedia.org/ontology/birthName> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/birthPlace
+<http://dbpedia.org/ontology/birthPlace> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/birthSign
+<http://dbpedia.org/ontology/birthSign> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/birthYear
+<http://dbpedia.org/ontology/birthYear> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bloodGroup
+<http://dbpedia.org/ontology/bloodGroup> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bloodType
+<http://dbpedia.org/ontology/bloodType> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/board
+<http://dbpedia.org/ontology/board> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bodyDiscovered
+<http://dbpedia.org/ontology/bodyDiscovered> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/britishWins
+<http://dbpedia.org/ontology/britishWins> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bustSize
+<http://dbpedia.org/ontology/bustSize> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bustWaistHipSize
+<http://dbpedia.org/ontology/bustWaistHipSize> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/careerStation
+<http://dbpedia.org/ontology/careerStation> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/case
+<http://dbpedia.org/ontology/case> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/catch
+<http://dbpedia.org/ontology/catch> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/causeOfDeath
+<http://dbpedia.org/ontology/causeOfDeath> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/circumcised
+<http://dbpedia.org/ontology/circumcised> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/citizenship
+<http://dbpedia.org/ontology/citizenship> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/clothSize
+<http://dbpedia.org/ontology/clothSize> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/clothingSize
+<http://dbpedia.org/ontology/clothingSize> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/coalition
+<http://dbpedia.org/ontology/coalition> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/college
+<http://dbpedia.org/ontology/college> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/competitionTitle
+<http://dbpedia.org/ontology/competitionTitle> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/complexion
+<http://dbpedia.org/ontology/complexion> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/contest
+<http://dbpedia.org/ontology/contest> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/continentalTournament
+<http://dbpedia.org/ontology/continentalTournament> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/continentalTournamentBronze
+<http://dbpedia.org/ontology/continentalTournamentBronze> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/continentalTournamentGold
+<http://dbpedia.org/ontology/continentalTournamentGold> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/continentalTournamentSilver
+<http://dbpedia.org/ontology/continentalTournamentSilver> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/convictionDate
+<http://dbpedia.org/ontology/convictionDate> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/created
+<http://dbpedia.org/ontology/created> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/currentTeamManager
+<http://dbpedia.org/ontology/currentTeamManager> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/danseCompetition
+<http://dbpedia.org/ontology/danseCompetition> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/danseScore
+<http://dbpedia.org/ontology/danseScore> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/dateOfBurial
+<http://dbpedia.org/ontology/dateOfBurial> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deadInFightDate
+<http://dbpedia.org/ontology/deadInFightDate> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deadInFightPlace
+<http://dbpedia.org/ontology/deadInFightPlace> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deathAge
+<http://dbpedia.org/ontology/deathAge> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deathCause
+<http://dbpedia.org/ontology/deathCause> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deathDate
+<http://dbpedia.org/ontology/deathDate> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deathPlace
+<http://dbpedia.org/ontology/deathPlace> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deathYear
+<http://dbpedia.org/ontology/deathYear> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/debutWork
+<http://dbpedia.org/ontology/debutWork> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/decoration
+<http://dbpedia.org/ontology/decoration> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/derivedWord
+<http://dbpedia.org/ontology/derivedWord> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/diploma
+<http://dbpedia.org/ontology/diploma> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/education
+<http://dbpedia.org/ontology/education> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/educationPlace
+<http://dbpedia.org/ontology/educationPlace> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/electionDate
+<http://dbpedia.org/ontology/electionDate> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/employer
+<http://dbpedia.org/ontology/employer> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/endCareer
+<http://dbpedia.org/ontology/endCareer> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/endReign
+<http://dbpedia.org/ontology/endReign> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/escalafon
+<http://dbpedia.org/ontology/escalafon> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/ethnicity
+<http://dbpedia.org/ontology/ethnicity> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/expedition
+<http://dbpedia.org/ontology/expedition> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/externalOrnament
+<http://dbpedia.org/ontology/externalOrnament> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/eyeColor
+<http://dbpedia.org/ontology/eyeColor> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/eyeColour
+<http://dbpedia.org/ontology/eyeColour> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/feat
+<http://dbpedia.org/ontology/feat> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/federation
+<http://dbpedia.org/ontology/federation> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/filmNumber
+<http://dbpedia.org/ontology/filmNumber> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/foot
+<http://dbpedia.org/ontology/foot> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/freeDanseScore
+<http://dbpedia.org/ontology/freeDanseScore> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/freeProgCompetition
+<http://dbpedia.org/ontology/freeProgCompetition> rdf:type owl:AnnotationProperty ;
+                                                  rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/freeProgScore
+<http://dbpedia.org/ontology/freeProgScore> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/freeScoreCompetition
+<http://dbpedia.org/ontology/freeScoreCompetition> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/fullCompetition
+<http://dbpedia.org/ontology/fullCompetition> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/fullScore
+<http://dbpedia.org/ontology/fullScore> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/grave
+<http://dbpedia.org/ontology/grave> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/gymApparatus
+<http://dbpedia.org/ontology/gymApparatus> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/hairColor
+<http://dbpedia.org/ontology/hairColor> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/hairColour
+<http://dbpedia.org/ontology/hairColour> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/hand
+<http://dbpedia.org/ontology/hand> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/handedness
+<http://dbpedia.org/ontology/handedness> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/handisport
+<http://dbpedia.org/ontology/handisport> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/hasNaturalBust
+<http://dbpedia.org/ontology/hasNaturalBust> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/hipSize
+<http://dbpedia.org/ontology/hipSize> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/homage
+<http://dbpedia.org/ontology/homage> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/idNumber
+<http://dbpedia.org/ontology/idNumber> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/iihfHof
+<http://dbpedia.org/ontology/iihfHof> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/imposedDanseCompetition
+<http://dbpedia.org/ontology/imposedDanseCompetition> rdf:type owl:AnnotationProperty ;
+                                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/imposedDanseScore
+<http://dbpedia.org/ontology/imposedDanseScore> rdf:type owl:AnnotationProperty ;
+                                                rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/individualisedPnd
+<http://dbpedia.org/ontology/individualisedPnd> rdf:type owl:AnnotationProperty ;
+                                                rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/juniorYearsEndYear
+<http://dbpedia.org/ontology/juniorYearsEndYear> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/juniorYearsStartYear
+<http://dbpedia.org/ontology/juniorYearsStartYear> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/jutsu
+<http://dbpedia.org/ontology/jutsu> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/killedBy
+<http://dbpedia.org/ontology/killedBy> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/lahHof
+<http://dbpedia.org/ontology/lahHof> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/leadership
+<http://dbpedia.org/ontology/leadership> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/leagueManager
+<http://dbpedia.org/ontology/leagueManager> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/linguisticsTradition
+<http://dbpedia.org/ontology/linguisticsTradition> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/littlePoolRecord
+<http://dbpedia.org/ontology/littlePoolRecord> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/livingPlace
+<http://dbpedia.org/ontology/livingPlace> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mainDomain
+<http://dbpedia.org/ontology/mainDomain> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mastersWins
+<http://dbpedia.org/ontology/mastersWins> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/matchPoint
+<http://dbpedia.org/ontology/matchPoint> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/measurements
+<http://dbpedia.org/ontology/measurements> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/media
+<http://dbpedia.org/ontology/media> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/member
+<http://dbpedia.org/ontology/member> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mood
+<http://dbpedia.org/ontology/mood> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mount
+<http://dbpedia.org/ontology/mount> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/movie
+<http://dbpedia.org/ontology/movie> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTeamMatchPoint
+<http://dbpedia.org/ontology/nationalTeamMatchPoint> rdf:type owl:AnnotationProperty ;
+                                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTeamYear
+<http://dbpedia.org/ontology/nationalTeamYear> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTournament
+<http://dbpedia.org/ontology/nationalTournament> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTournamentBronze
+<http://dbpedia.org/ontology/nationalTournamentBronze> rdf:type owl:AnnotationProperty ;
+                                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTournamentGold
+<http://dbpedia.org/ontology/nationalTournamentGold> rdf:type owl:AnnotationProperty ;
+                                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationalTournamentSilver
+<http://dbpedia.org/ontology/nationalTournamentSilver> rdf:type owl:AnnotationProperty ;
+                                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nationality
+<http://dbpedia.org/ontology/nationality> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/networth
+<http://dbpedia.org/ontology/networth> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/newspaper
+<http://dbpedia.org/ontology/newspaper> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nndbId
+<http://dbpedia.org/ontology/nndbId> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nonProfessionalCareer
+<http://dbpedia.org/ontology/nonProfessionalCareer> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/notableIdea
+<http://dbpedia.org/ontology/notableIdea> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/noteOnRestingPlace
+<http://dbpedia.org/ontology/noteOnRestingPlace> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/numberOfRun
+<http://dbpedia.org/ontology/numberOfRun> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicGames
+<http://dbpedia.org/ontology/olympicGames> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicGamesBronze
+<http://dbpedia.org/ontology/olympicGamesBronze> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicGamesGold
+<http://dbpedia.org/ontology/olympicGamesGold> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicGamesSilver
+<http://dbpedia.org/ontology/olympicGamesSilver> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicGamesWins
+<http://dbpedia.org/ontology/olympicGamesWins> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/orientation
+<http://dbpedia.org/ontology/orientation> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/originalDanseCompetition
+<http://dbpedia.org/ontology/originalDanseCompetition> rdf:type owl:AnnotationProperty ;
+                                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/originalDanseScore
+<http://dbpedia.org/ontology/originalDanseScore> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/otherActivity
+<http://dbpedia.org/ontology/otherActivity> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/otherFunction
+<http://dbpedia.org/ontology/otherFunction> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/otherMedia
+<http://dbpedia.org/ontology/otherMedia> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/otherOccupation
+<http://dbpedia.org/ontology/otherOccupation> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/parliamentaryGroup
+<http://dbpedia.org/ontology/parliamentaryGroup> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/particularSign
+<http://dbpedia.org/ontology/particularSign> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/patent
+<http://dbpedia.org/ontology/patent> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/penisLength
+<http://dbpedia.org/ontology/penisLength> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/personFunction
+<http://dbpedia.org/ontology/personFunction> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/pgaWins
+<http://dbpedia.org/ontology/pgaWins> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/philosophicalSchool
+<http://dbpedia.org/ontology/philosophicalSchool> rdf:type owl:AnnotationProperty ;
+                                                  rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/piercing
+<http://dbpedia.org/ontology/piercing> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/placeOfBurial
+<http://dbpedia.org/ontology/placeOfBurial> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/playerStatus
+<http://dbpedia.org/ontology/playerStatus> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/podium
+<http://dbpedia.org/ontology/podium> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/polePosition
+<http://dbpedia.org/ontology/polePosition> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/politicalFunction
+<http://dbpedia.org/ontology/politicalFunction> rdf:type owl:AnnotationProperty ;
+                                                rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/proPeriod
+<http://dbpedia.org/ontology/proPeriod> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/proSince
+<http://dbpedia.org/ontology/proSince> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/profession
+<http://dbpedia.org/ontology/profession> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/project
+<http://dbpedia.org/ontology/project> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/pseudonym
+<http://dbpedia.org/ontology/pseudonym> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/publication
+<http://dbpedia.org/ontology/publication> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/raceWins
+<http://dbpedia.org/ontology/raceWins> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/radio
+<http://dbpedia.org/ontology/radio> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/reign
+<http://dbpedia.org/ontology/reign> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/reignName
+<http://dbpedia.org/ontology/reignName> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/relatedFunctions
+<http://dbpedia.org/ontology/relatedFunctions> rdf:type owl:AnnotationProperty ;
+                                               rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/residence
+<http://dbpedia.org/ontology/residence> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/restingDate
+<http://dbpedia.org/ontology/restingDate> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/restingPlace
+<http://dbpedia.org/ontology/restingPlace> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/restingPlacePosition
+<http://dbpedia.org/ontology/restingPlacePosition> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/retirementDate
+<http://dbpedia.org/ontology/retirementDate> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/salary
+<http://dbpedia.org/ontology/salary> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/scene
+<http://dbpedia.org/ontology/scene> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/school
+<http://dbpedia.org/ontology/school> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/seasonManager
+<http://dbpedia.org/ontology/seasonManager> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/second
+<http://dbpedia.org/ontology/second> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sentence
+<http://dbpedia.org/ontology/sentence> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sex
+<http://dbpedia.org/ontology/sex> rdf:type owl:AnnotationProperty ;
+                                  rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sexualOrientation
+<http://dbpedia.org/ontology/sexualOrientation> rdf:type owl:AnnotationProperty ;
+                                                rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shoeNumber
+<http://dbpedia.org/ontology/shoeNumber> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shoeSize
+<http://dbpedia.org/ontology/shoeSize> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shoot
+<http://dbpedia.org/ontology/shoot> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shortProgCompetition
+<http://dbpedia.org/ontology/shortProgCompetition> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shortProgScore
+<http://dbpedia.org/ontology/shortProgScore> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/signature
+<http://dbpedia.org/ontology/signature> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/significantProject
+<http://dbpedia.org/ontology/significantProject> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/skinColor
+<http://dbpedia.org/ontology/skinColor> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/specialTrial
+<http://dbpedia.org/ontology/specialTrial> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/speciality
+<http://dbpedia.org/ontology/speciality> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sportDiscipline
+<http://dbpedia.org/ontology/sportDiscipline> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sportsFunction
+<http://dbpedia.org/ontology/sportsFunction> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/spouseName
+<http://dbpedia.org/ontology/spouseName> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/start
+<http://dbpedia.org/ontology/start> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/startCareer
+<http://dbpedia.org/ontology/startCareer> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/startReign
+<http://dbpedia.org/ontology/startReign> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/startWct
+<http://dbpedia.org/ontology/startWct> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/startWqs
+<http://dbpedia.org/ontology/startWqs> rdf:type owl:AnnotationProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/stateOfOrigin
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/statusManager
+<http://dbpedia.org/ontology/statusManager> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/tattoo
+<http://dbpedia.org/ontology/tattoo> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/teamManager
+<http://dbpedia.org/ontology/teamManager> rdf:type owl:AnnotationProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/temple
+<http://dbpedia.org/ontology/temple> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/templeYear
+<http://dbpedia.org/ontology/templeYear> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/tessitura
+<http://dbpedia.org/ontology/tessitura> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/third
+<http://dbpedia.org/ontology/third> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/titleDate
+<http://dbpedia.org/ontology/titleDate> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/tvShow
+<http://dbpedia.org/ontology/tvShow> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/university
+<http://dbpedia.org/ontology/university> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/usopenWins
+<http://dbpedia.org/ontology/usopenWins> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/victory
+<http://dbpedia.org/ontology/victory> rdf:type owl:AnnotationProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/victoryAsMgr
+<http://dbpedia.org/ontology/victoryAsMgr> rdf:type owl:AnnotationProperty ;
+                                           rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/victoryPercentageAsMgr
+<http://dbpedia.org/ontology/victoryPercentageAsMgr> rdf:type owl:AnnotationProperty ;
+                                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/waistSize
+<http://dbpedia.org/ontology/waistSize> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/weapon
+<http://dbpedia.org/ontology/weapon> rdf:type owl:AnnotationProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/weddingParentsDate
+<http://dbpedia.org/ontology/weddingParentsDate> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/world
+<http://dbpedia.org/ontology/world> rdf:type owl:AnnotationProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/worldTournament
+<http://dbpedia.org/ontology/worldTournament> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/worldTournamentBronze
+<http://dbpedia.org/ontology/worldTournamentBronze> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/worldTournamentGold
+<http://dbpedia.org/ontology/worldTournamentGold> rdf:type owl:AnnotationProperty ;
+                                                  rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/worldTournamentSilver
+<http://dbpedia.org/ontology/worldTournamentSilver> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Person/height
+<http://dbpedia.org/ontology/Person/height> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Person/weight
+<http://dbpedia.org/ontology/Person/weight> rdf:type owl:AnnotationProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> .
+
+
+###  http://open.vocab.org/terms/defines
+<http://open.vocab.org/terms/defines> rdf:type owl:AnnotationProperty .
+
+
+###  http://open.vocab.org/terms/describes
+<http://open.vocab.org/terms/describes> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2007/05/powder-s#describedby
+<http://www.w3.org/2007/05/powder-s#describedby> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/academicAdvisor
+<http://dbpedia.org/ontology/academicAdvisor> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/actingHeadteacher
+<http://dbpedia.org/ontology/actingHeadteacher> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/administrator
+<http://dbpedia.org/ontology/administrator> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/alongside
+<http://dbpedia.org/ontology/alongside> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/alumni
+<http://dbpedia.org/ontology/alumni> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/apcPresident
+<http://dbpedia.org/ontology/apcPresident> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/appointer
+<http://dbpedia.org/ontology/appointer> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/associate
+<http://dbpedia.org/ontology/associate> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/associateEditor
+<http://dbpedia.org/ontology/associateEditor> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/attorneyGeneral
+<http://dbpedia.org/ontology/attorneyGeneral> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/author
+<http://dbpedia.org/ontology/author> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bandMember
+<http://dbpedia.org/ontology/bandMember> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/beatifiedBy
+<http://dbpedia.org/ontology/beatifiedBy> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bourgmestre
+<http://dbpedia.org/ontology/bourgmestre> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/breeder
+<http://dbpedia.org/ontology/breeder> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/bronzeMedalist
+<http://dbpedia.org/ontology/bronzeMedalist> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/canonizedBy
+<http://dbpedia.org/ontology/canonizedBy> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/ceo
+<http://dbpedia.org/ontology/ceo> rdf:type owl:ObjectProperty ;
+                                  rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chairman
+<http://dbpedia.org/ontology/chairman> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chairperson
+<http://dbpedia.org/ontology/chairperson> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chancellor
+<http://dbpedia.org/ontology/chancellor> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chaplain
+<http://dbpedia.org/ontology/chaplain> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chef
+<http://dbpedia.org/ontology/chef> rdf:type owl:ObjectProperty ;
+                                   rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/chiefEditor
+<http://dbpedia.org/ontology/chiefEditor> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/child
+<http://dbpedia.org/ontology/child> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/choreographer
+<http://dbpedia.org/ontology/choreographer> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/cinematography
+<http://dbpedia.org/ontology/cinematography> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/clubsRecordGoalscorer
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdf:type owl:ObjectProperty ;
+                                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/coExecutiveProducer
+<http://dbpedia.org/ontology/coExecutiveProducer> rdf:type owl:ObjectProperty ;
+                                                  rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/coProducer
+<http://dbpedia.org/ontology/coProducer> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/coach
+<http://dbpedia.org/ontology/coach> rdf:type owl:ObjectProperty ;
+                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/collaboration
+<http://dbpedia.org/ontology/collaboration> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/colleague
+<http://dbpedia.org/ontology/colleague> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/commandant
+<http://dbpedia.org/ontology/commandant> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/commander
+<http://dbpedia.org/ontology/commander> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/compiler
+<http://dbpedia.org/ontology/compiler> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/composer
+<http://dbpedia.org/ontology/composer> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/copilote
+<http://dbpedia.org/ontology/copilote> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/costumeDesigner
+<http://dbpedia.org/ontology/costumeDesigner> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/cousurper
+<http://dbpedia.org/ontology/cousurper> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/coverArtist
+<http://dbpedia.org/ontology/coverArtist> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/creativeDirector
+<http://dbpedia.org/ontology/creativeDirector> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/creatorOfDish
+<http://dbpedia.org/ontology/creatorOfDish> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/curator
+<http://dbpedia.org/ontology/curator> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/currentMember
+<http://dbpedia.org/ontology/currentMember> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/currentPartner
+<http://dbpedia.org/ontology/currentPartner> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/custodian
+<http://dbpedia.org/ontology/custodian> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/dean
+<http://dbpedia.org/ontology/dean> rdf:type owl:ObjectProperty ;
+                                   rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/delegateMayor
+<http://dbpedia.org/ontology/delegateMayor> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/deputy
+<http://dbpedia.org/ontology/deputy> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/designer
+<http://dbpedia.org/ontology/designer> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/detractor
+<http://dbpedia.org/ontology/detractor> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/director
+<http://dbpedia.org/ontology/director> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/discoverer
+<http://dbpedia.org/ontology/discoverer> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/doctoralAdvisor
+<http://dbpedia.org/ontology/doctoralAdvisor> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/doctoralStudent
+<http://dbpedia.org/ontology/doctoralStudent> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/dubber
+<http://dbpedia.org/ontology/dubber> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/editing
+<http://dbpedia.org/ontology/editing> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/engineer
+<http://dbpedia.org/ontology/engineer> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/executiveHeadteacher
+<http://dbpedia.org/ontology/executiveHeadteacher> rdf:type owl:ObjectProperty ;
+                                                   rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/executiveProducer
+<http://dbpedia.org/ontology/executiveProducer> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/familyMember
+<http://dbpedia.org/ontology/familyMember> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/fastestDriver
+<http://dbpedia.org/ontology/fastestDriver> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/father
+<http://dbpedia.org/ontology/father> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/firstAscentPerson
+<http://dbpedia.org/ontology/firstAscentPerson> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/firstDriver
+<http://dbpedia.org/ontology/firstDriver> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/firstLeader
+<http://dbpedia.org/ontology/firstLeader> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/firstPopularVote
+<http://dbpedia.org/ontology/firstPopularVote> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/firstWinner
+<http://dbpedia.org/ontology/firstWinner> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/flagBearer
+<http://dbpedia.org/ontology/flagBearer> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/footedness
+<http://dbpedia.org/ontology/footedness> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/formerBandMember
+<http://dbpedia.org/ontology/formerBandMember> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/formerChoreographer
+<http://dbpedia.org/ontology/formerChoreographer> rdf:type owl:ObjectProperty ;
+                                                  rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/formerCoach
+<http://dbpedia.org/ontology/formerCoach> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/formerPartner
+<http://dbpedia.org/ontology/formerPartner> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/founder
+<http://dbpedia.org/ontology/founder> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/fourthCommander
+<http://dbpedia.org/ontology/fourthCommander> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/friend
+<http://dbpedia.org/ontology/friend> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/gameArtist
+<http://dbpedia.org/ontology/gameArtist> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/generalManager
+<http://dbpedia.org/ontology/generalManager> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/goldMedalist
+<http://dbpedia.org/ontology/goldMedalist> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/governor
+<http://dbpedia.org/ontology/governor> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/governorGeneral
+<http://dbpedia.org/ontology/governorGeneral> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/guest
+<http://dbpedia.org/ontology/guest> rdf:type owl:ObjectProperty ;
+                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/head
+<http://dbpedia.org/ontology/head> rdf:type owl:ObjectProperty ;
+                                   rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/headChef
+<http://dbpedia.org/ontology/headChef> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/headOfFamily
+<http://dbpedia.org/ontology/headOfFamily> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/headteacher
+<http://dbpedia.org/ontology/headteacher> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/heir
+<http://dbpedia.org/ontology/heir> rdf:type owl:ObjectProperty ;
+                                   rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/illustrator
+<http://dbpedia.org/ontology/illustrator> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/incumbent
+<http://dbpedia.org/ontology/incumbent> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/keyPerson
+<http://dbpedia.org/ontology/keyPerson> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/landeshauptmann
+<http://dbpedia.org/ontology/landeshauptmann> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/lastFamilyMember
+<http://dbpedia.org/ontology/lastFamilyMember> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/leader
+<http://dbpedia.org/ontology/leader> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/leaderName
+<http://dbpedia.org/ontology/leaderName> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/lieutenant
+<http://dbpedia.org/ontology/lieutenant> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/lyrics
+<http://dbpedia.org/ontology/lyrics> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mainCharacter
+<http://dbpedia.org/ontology/mainCharacter> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/makeupArtist
+<http://dbpedia.org/ontology/makeupArtist> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/manager
+<http://dbpedia.org/ontology/manager> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/managingEditor
+<http://dbpedia.org/ontology/managingEditor> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/medalist
+<http://dbpedia.org/ontology/medalist> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/memberOfParliament
+<http://dbpedia.org/ontology/memberOfParliament> rdf:type owl:ObjectProperty ;
+                                                 rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/monarch
+<http://dbpedia.org/ontology/monarch> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/mother
+<http://dbpedia.org/ontology/mother> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/musicBy
+<http://dbpedia.org/ontology/musicBy> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/narrator
+<http://dbpedia.org/ontology/narrator> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nobelLaureates
+<http://dbpedia.org/ontology/nobelLaureates> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/nominee
+<http://dbpedia.org/ontology/nominee> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/notableCommander
+<http://dbpedia.org/ontology/notableCommander> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/notableStudent
+<http://dbpedia.org/ontology/notableStudent> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/officerInCharge
+<http://dbpedia.org/ontology/officerInCharge> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/officialOpenedBy
+<http://dbpedia.org/ontology/officialOpenedBy> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicOathSwornBy
+<http://dbpedia.org/ontology/olympicOathSwornBy> rdf:type owl:ObjectProperty ;
+                                                 rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicOathSwornByAthlete
+<http://dbpedia.org/ontology/olympicOathSwornByAthlete> rdf:type owl:ObjectProperty ;
+                                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/olympicOathSwornByJudge
+<http://dbpedia.org/ontology/olympicOathSwornByJudge> rdf:type owl:ObjectProperty ;
+                                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/opponent
+<http://dbpedia.org/ontology/opponent> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/painter
+<http://dbpedia.org/ontology/painter> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/parent
+<http://dbpedia.org/ontology/parent> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/partner
+<http://dbpedia.org/ontology/partner> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/pastMember
+<http://dbpedia.org/ontology/pastMember> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/pastor
+<http://dbpedia.org/ontology/pastor> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/patron
+<http://dbpedia.org/ontology/patron> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/patronSaint
+<http://dbpedia.org/ontology/patronSaint> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/performer
+<http://dbpedia.org/ontology/performer> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/person
+<http://dbpedia.org/ontology/person> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/photographer
+<http://dbpedia.org/ontology/photographer> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/playerInTeam
+<http://dbpedia.org/ontology/playerInTeam> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/poleDriver
+<http://dbpedia.org/ontology/poleDriver> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/prefaceBy
+<http://dbpedia.org/ontology/prefaceBy> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/prefect
+<http://dbpedia.org/ontology/prefect> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/presenter
+<http://dbpedia.org/ontology/presenter> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/president
+<http://dbpedia.org/ontology/president> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/presidentGeneralCouncil
+<http://dbpedia.org/ontology/presidentGeneralCouncil> rdf:type owl:ObjectProperty ;
+                                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/presidentRegionalCouncil
+<http://dbpedia.org/ontology/presidentRegionalCouncil> rdf:type owl:ObjectProperty ;
+                                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/previousEditor
+<http://dbpedia.org/ontology/previousEditor> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/primeMinister
+<http://dbpedia.org/ontology/primeMinister> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/primogenitor
+<http://dbpedia.org/ontology/primogenitor> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/principal
+<http://dbpedia.org/ontology/principal> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/principalEngineer
+<http://dbpedia.org/ontology/principalEngineer> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/provost
+<http://dbpedia.org/ontology/provost> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/recentWinner
+<http://dbpedia.org/ontology/recentWinner> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/rector
+<http://dbpedia.org/ontology/rector> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/reffBourgmestre
+<http://dbpedia.org/ontology/reffBourgmestre> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/relation
+<http://dbpedia.org/ontology/relation> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/relative
+<http://dbpedia.org/ontology/relative> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/runningMate
+<http://dbpedia.org/ontology/runningMate> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/secondCommander
+<http://dbpedia.org/ontology/secondCommander> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/secondDriver
+<http://dbpedia.org/ontology/secondDriver> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/secondLeader
+<http://dbpedia.org/ontology/secondLeader> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/secondPopularVote
+<http://dbpedia.org/ontology/secondPopularVote> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/secretaryGeneral
+<http://dbpedia.org/ontology/secretaryGeneral> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/seiyu
+<http://dbpedia.org/ontology/seiyu> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/senator
+<http://dbpedia.org/ontology/senator> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/setDesigner
+<http://dbpedia.org/ontology/setDesigner> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/shipCrew
+<http://dbpedia.org/ontology/shipCrew> rdf:type owl:ObjectProperty ;
+                                       rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/showJudge
+<http://dbpedia.org/ontology/showJudge> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/sibling
+<http://dbpedia.org/ontology/sibling> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/silverMedalist
+<http://dbpedia.org/ontology/silverMedalist> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/solicitorGeneral
+<http://dbpedia.org/ontology/solicitorGeneral> rdf:type owl:ObjectProperty ;
+                                               rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/specialEffects
+<http://dbpedia.org/ontology/specialEffects> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/spokesperson
+<http://dbpedia.org/ontology/spokesperson> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/spouse
+<http://dbpedia.org/ontology/spouse> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/stateDelegate
+<http://dbpedia.org/ontology/stateDelegate> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/storyEditor
+<http://dbpedia.org/ontology/storyEditor> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/student
+<http://dbpedia.org/ontology/student> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/superintendent
+<http://dbpedia.org/ontology/superintendent> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/taoiseach
+<http://dbpedia.org/ontology/taoiseach> rdf:type owl:ObjectProperty ;
+                                        rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/thirdCommander
+<http://dbpedia.org/ontology/thirdCommander> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/thirdDriver
+<http://dbpedia.org/ontology/thirdDriver> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/torchBearer
+<http://dbpedia.org/ontology/torchBearer> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/trainer
+<http://dbpedia.org/ontology/trainer> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/translator
+<http://dbpedia.org/ontology/translator> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/trustee
+<http://dbpedia.org/ontology/trustee> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/usurper
+<http://dbpedia.org/ontology/usurper> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                      rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/viceChancellor
+<http://dbpedia.org/ontology/viceChancellor> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/viceLeader
+<http://dbpedia.org/ontology/viceLeader> rdf:type owl:ObjectProperty ;
+                                         rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/vicePresident
+<http://dbpedia.org/ontology/vicePresident> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/vicePrimeMinister
+<http://dbpedia.org/ontology/vicePrimeMinister> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/vicePrincipal
+<http://dbpedia.org/ontology/vicePrincipal> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/voice
+<http://dbpedia.org/ontology/voice> rdf:type owl:ObjectProperty ;
+                                    rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/writer
+<http://dbpedia.org/ontology/writer> rdf:type owl:ObjectProperty ;
+                                     rdfs:range <http://dbpedia.org/ontology/Person> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Activity
+<http://dbpedia.org/ontology/Activity> rdf:type owl:Class ;
+                                       owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Agent
+<http://dbpedia.org/ontology/Agent> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Ambassador
+<http://dbpedia.org/ontology/Ambassador> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Archeologist
+<http://dbpedia.org/ontology/Archeologist> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Architect
+<http://dbpedia.org/ontology/Architect> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Aristocrat
+<http://dbpedia.org/ontology/Aristocrat> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Artist
+<http://dbpedia.org/ontology/Artist> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Astronaut
+<http://dbpedia.org/ontology/Astronaut> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Athlete
+<http://dbpedia.org/ontology/Athlete> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/BeautyQueen
+<http://dbpedia.org/ontology/BeautyQueen> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Building
+<http://dbpedia.org/ontology/Building> rdf:type owl:Class ;
+                                       owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/BusinessPerson
+<http://dbpedia.org/ontology/BusinessPerson> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Celebrity
+<http://dbpedia.org/ontology/Celebrity> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Chef
+<http://dbpedia.org/ontology/Chef> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Cleric
+<http://dbpedia.org/ontology/Cleric> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Coach
+<http://dbpedia.org/ontology/Coach> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/ConveyorSystem
+<http://dbpedia.org/ontology/ConveyorSystem> rdf:type owl:Class ;
+                                             owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Criminal
+<http://dbpedia.org/ontology/Criminal> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Economist
+<http://dbpedia.org/ontology/Economist> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Egyptologist
+<http://dbpedia.org/ontology/Egyptologist> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Engineer
+<http://dbpedia.org/ontology/Engineer> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Escalator
+<http://dbpedia.org/ontology/Escalator> rdf:type owl:Class ;
+                                        owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Event
+<http://dbpedia.org/ontology/Event> rdf:type owl:Class ;
+                                    owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Farmer
+<http://dbpedia.org/ontology/Farmer> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/FictionalCharacter
+<http://dbpedia.org/ontology/FictionalCharacter> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Gate
+<http://dbpedia.org/ontology/Gate> rdf:type owl:Class ;
+                                   owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/GeologicalPeriod
+<http://dbpedia.org/ontology/GeologicalPeriod> rdf:type owl:Class ;
+                                               owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/HistoricalPeriod
+<http://dbpedia.org/ontology/HistoricalPeriod> rdf:type owl:Class ;
+                                               owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/HorseTrainer
+<http://dbpedia.org/ontology/HorseTrainer> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Journalist
+<http://dbpedia.org/ontology/Journalist> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Judge
+<http://dbpedia.org/ontology/Judge> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Lawyer
+<http://dbpedia.org/ontology/Lawyer> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Linguist
+<http://dbpedia.org/ontology/Linguist> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/MeanOfTransportation
+<http://dbpedia.org/ontology/MeanOfTransportation> rdf:type owl:Class ;
+                                                   owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/MemberResistanceMovement
+<http://dbpedia.org/ontology/MemberResistanceMovement> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/MilitaryPerson
+<http://dbpedia.org/ontology/MilitaryPerson> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Mine
+<http://dbpedia.org/ontology/Mine> rdf:type owl:Class ;
+                                   owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Model
+<http://dbpedia.org/ontology/Model> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Monarch
+<http://dbpedia.org/ontology/Monarch> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Mountain
+<http://dbpedia.org/ontology/Mountain> rdf:type owl:Class ;
+                                       owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/MovieDirector
+<http://dbpedia.org/ontology/MovieDirector> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/MovingWalkway
+<http://dbpedia.org/ontology/MovingWalkway> rdf:type owl:Class ;
+                                            owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Noble
+<http://dbpedia.org/ontology/Noble> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/OfficeHolder
+<http://dbpedia.org/ontology/OfficeHolder> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/On-SiteTransportation
+<http://dbpedia.org/ontology/On-SiteTransportation> rdf:type owl:Class ;
+                                                    owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/OrganisationMember
+<http://dbpedia.org/ontology/OrganisationMember> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Orphan
+<http://dbpedia.org/ontology/Orphan> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/PeriodOfArtisticStyle
+<http://dbpedia.org/ontology/PeriodOfArtisticStyle> rdf:type owl:Class ;
+                                                    owl:disjointWith <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Person
+<http://dbpedia.org/ontology/Person> rdf:type owl:Class ;
+                                     owl:equivalentClass <http://schema.org/Person> ,
+                                                         <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> ,
+                                                         <http://www.wikidata.org/entity/Q215627> ,
+                                                         <http://www.wikidata.org/entity/Q5> ,
+                                                         <http://xmlns.com/foaf/0.1/Person> ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Agent> ;
+                                     owl:disjointWith <http://dbpedia.org/ontology/ProtohistoricalPeriod> ,
+                                                      <http://dbpedia.org/ontology/TimePeriod> ,
+                                                      <http://dbpedia.org/ontology/Tower> ,
+                                                      <http://dbpedia.org/ontology/UnitOfWork> .
+
+
+###  http://dbpedia.org/ontology/Philosopher
+<http://dbpedia.org/ontology/Philosopher> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/PlayboyPlaymate
+<http://dbpedia.org/ontology/PlayboyPlaymate> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Politician
+<http://dbpedia.org/ontology/Politician> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/PoliticianSpouse
+<http://dbpedia.org/ontology/PoliticianSpouse> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Presenter
+<http://dbpedia.org/ontology/Presenter> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Producer
+<http://dbpedia.org/ontology/Producer> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/ProtohistoricalPeriod
+<http://dbpedia.org/ontology/ProtohistoricalPeriod> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Psychologist
+<http://dbpedia.org/ontology/Psychologist> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Referee
+<http://dbpedia.org/ontology/Referee> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Religious
+<http://dbpedia.org/ontology/Religious> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/RomanEmperor
+<http://dbpedia.org/ontology/RomanEmperor> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Royalty
+<http://dbpedia.org/ontology/Royalty> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/Scientist
+<http://dbpedia.org/ontology/Scientist> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/SportsManager
+<http://dbpedia.org/ontology/SportsManager> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/TelevisionDirector
+<http://dbpedia.org/ontology/TelevisionDirector> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/TelevisionPersonality
+<http://dbpedia.org/ontology/TelevisionPersonality> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/TheatreDirector
+<http://dbpedia.org/ontology/TheatreDirector> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://dbpedia.org/ontology/TimePeriod
+<http://dbpedia.org/ontology/TimePeriod> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Tower
+<http://dbpedia.org/ontology/Tower> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/UnitOfWork
+<http://dbpedia.org/ontology/UnitOfWork> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Writer
+<http://dbpedia.org/ontology/Writer> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Person> .
+
+
+###  http://schema.org/Person
+<http://schema.org/Person> rdf:type owl:Class .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q215627
+<http://www.wikidata.org/entity/Q215627> rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q5
+<http://www.wikidata.org/entity/Q5> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/ontology/Person
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://dbpedia.org/ontology/> <http://open.vocab.org/terms/defines> <http://dbpedia.org/ontology/Person> .
+
+
+<http://dbpedia.org/ontology/Person> rdfs:isDefinedBy <http://dbpedia.org/ontology/> ;
+                                     rdfs:label "Oseba"@sl ,
+                                                "Person"@de ,
+                                                "duine"@ga ,
+                                                "osoba"@pl ,
+                                                "person"@en ,
+                                                "persona"@es ,
+                                                "persona"@it ,
+                                                "personne"@fr ,
+                                                "persoon"@nl ,
+                                                "pertsona"@eu ,
+                                                "pessoa"@pt ,
+                                                "Πληροφορίες προσώπου"@el ,
+                                                "անձ"@hy ,
+                                                "شخص"@ar ,
+                                                "人_(法律)"@ja ;
+                                     <http://www.w3.org/2007/05/powder-s#describedby> <http://dbpedia.org/ontology/data/definitions.ttl> ;
+                                     <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Person> .
+
+
+<http://dbpedia.org/ontology/data/definitions.ttl> <http://open.vocab.org/terms/describes> <http://dbpedia.org/ontology/Person> .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
