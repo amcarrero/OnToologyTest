@@ -1,9 +1,0 @@
-digraph ar2dtool_diagram { 
-rankdir=LR;
-size="1501"
-node [shape = rectangle, color="orange"]; "http://www.semanticweb.org/grupo07/ontologies/class#Park" "http://www.semanticweb.org/grupo07/ontologies/class#Especie" ; /*classes style*/
-	"http://www.semanticweb.org/grupo07/ontologies/class#Park" -> "xsd:string" [ label = "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName" ];
-	"http://www.semanticweb.org/grupo07/ontologies/class#Park" -> "http://www.semanticweb.org/grupo07/ontologies/class#Especie" [ label = "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie" ];
-	"http://www.semanticweb.org/grupo07/ontologies/class#Especie" -> "xsd:string" [ label = "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName" ];
-
-}
