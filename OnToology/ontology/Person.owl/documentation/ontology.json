@@ -1,0 +1,3047 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/",
+  "http://open.vocab.org/terms/defines" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Ambassador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Archeologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Architect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Aristocrat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Artist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Astronaut",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Athlete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/BeautyQueen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/BusinessPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Celebrity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Chef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Cleric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Coach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/ConveyorSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Criminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Economist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Egyptologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Engineer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Escalator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Farmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/FictionalCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Gate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/GeologicalPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/HistoricalPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/HorseTrainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Journalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Judge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Lawyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Linguist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/MeanOfTransportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/MemberResistanceMovement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/MilitaryPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Mine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Monarch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Mountain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/MovieDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/MovingWalkway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Noble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/OfficeHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/On-SiteTransportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/OrganisationMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Orphan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/PeriodOfArtisticStyle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://dbpedia.org/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "sl",
+    "@value" : "Oseba"
+  }, {
+    "@language" : "de",
+    "@value" : "Person"
+  }, {
+    "@language" : "ga",
+    "@value" : "duine"
+  }, {
+    "@language" : "pl",
+    "@value" : "osoba"
+  }, {
+    "@language" : "en",
+    "@value" : "person"
+  }, {
+    "@language" : "es",
+    "@value" : "persona"
+  }, {
+    "@language" : "it",
+    "@value" : "persona"
+  }, {
+    "@language" : "fr",
+    "@value" : "personne"
+  }, {
+    "@language" : "nl",
+    "@value" : "persoon"
+  }, {
+    "@language" : "eu",
+    "@value" : "pertsona"
+  }, {
+    "@language" : "pt",
+    "@value" : "pessoa"
+  }, {
+    "@language" : "el",
+    "@value" : "Πληροφορίες προσώπου"
+  }, {
+    "@language" : "hy",
+    "@value" : "անձ"
+  }, {
+    "@language" : "ar",
+    "@value" : "شخص"
+  }, {
+    "@language" : "ja",
+    "@value" : "人_(法律)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Agent"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://dbpedia.org/ontology/ProtohistoricalPeriod"
+  }, {
+    "@id" : "http://dbpedia.org/ontology/TimePeriod"
+  }, {
+    "@id" : "http://dbpedia.org/ontology/Tower"
+  }, {
+    "@id" : "http://dbpedia.org/ontology/UnitOfWork"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://schema.org/Person"
+  }, {
+    "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q215627"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q5"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2007/05/powder-s#describedby" : [ {
+    "@id" : "http://dbpedia.org/ontology/data/definitions.ttl"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyClass:Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Person/height",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Person/weight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Philosopher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/PlayboyPlaymate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Politician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/PoliticianSpouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Presenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Producer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/ProtohistoricalPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Psychologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Referee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Religious",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/RomanEmperor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Royalty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Scientist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/SportsManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/TelevisionDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/TelevisionPersonality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/TheatreDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/TimePeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Tower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/UnitOfWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Writer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/academicAdvisor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/actingHeadteacher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activeYears",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activeYearsEndDateMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activeYearsEndYearMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activeYearsStartDateMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activeYearsStartYearMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/administrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/affair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/agency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/allegiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/almaMater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/alongside",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/alumni",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/announcedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/apcPresident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/appointer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/approach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/arrestDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/artisticFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/associate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/associateEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/astrologicalSign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/attorneyGeneral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/awardName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/badGuy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bandMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/beatifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bestLap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bigPoolRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/birthDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/birthName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/birthPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/birthSign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/birthYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bloodGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bodyDiscovered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bourgmestre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/breeder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/britishWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bronzeMedalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bustSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/bustWaistHipSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/canonizedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/careerStation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/catch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/causeOfDeath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/ceo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chairman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chairperson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chancellor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chaplain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/chiefEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/child",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/choreographer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/cinematography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/circumcised",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/citizenship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/clothSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/clothingSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/clubsRecordGoalscorer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/coExecutiveProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/coProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/coach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/coalition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/collaboration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/colleague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/college",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/commandant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/commander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/competitionTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/compiler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/complexion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/composer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/contest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/continentalTournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/continentalTournamentBronze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/continentalTournamentGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/continentalTournamentSilver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/convictionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/copilote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/costumeDesigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/cousurper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/coverArtist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/creativeDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/creatorOfDish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/curator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/currentMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/currentPartner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/currentTeamManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/custodian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/danseCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/danseScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/data/definitions.ttl",
+  "http://open.vocab.org/terms/describes" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/dateOfBurial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deadInFightDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deadInFightPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/dean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deathAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deathCause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deathDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deathPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deathYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/debutWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/decoration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/delegateMayor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/deputy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/derivedWord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/designer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/detractor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/diploma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/discoverer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/doctoralAdvisor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/doctoralStudent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/dubber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/editing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/education",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/educationPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/electionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/employer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/endCareer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/endReign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/engineer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/escalafon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/ethnicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/executiveHeadteacher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/executiveProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/expedition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/externalOrnament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/eyeColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/eyeColour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/familyMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/fastestDriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/father",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/feat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/federation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/filmNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/firstAscentPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/firstDriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/firstLeader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/firstPopularVote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/firstWinner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/flagBearer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/foot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/footedness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/formerBandMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/formerChoreographer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/formerCoach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/formerPartner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/founder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/fourthCommander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/freeDanseScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/freeProgCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/freeProgScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/freeScoreCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/friend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/fullCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/fullScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/gameArtist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/generalManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/goldMedalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/governor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/governorGeneral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/grave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/guest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/gymApparatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/hairColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/hairColour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/hand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/handedness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/handisport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/hasNaturalBust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/head",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/headChef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/headOfFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/headteacher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/heir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/hipSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/homage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/idNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/iihfHof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/illustrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/imposedDanseCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/imposedDanseScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/incumbent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/individualisedPnd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/juniorYearsEndYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/juniorYearsStartYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/jutsu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/keyPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/killedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/lahHof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/landeshauptmann",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/lastFamilyMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/leader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/leaderName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/leadership",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/leagueManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/lieutenant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/linguisticsTradition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/littlePoolRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/livingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/lyrics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mainCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mainDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/makeupArtist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/managingEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mastersWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/matchPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/measurements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/medalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/media",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/memberOfParliament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/monarch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/mount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/movie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/musicBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/narrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTeamMatchPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTeamYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTournamentBronze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTournamentGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationalTournamentSilver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/networth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/newspaper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nndbId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nobelLaureates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nominee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/nonProfessionalCareer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/notableCommander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/notableIdea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/notableStudent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/noteOnRestingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/numberOfRun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/officerInCharge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/officialOpenedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicGames",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicGamesBronze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicGamesGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicGamesSilver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicGamesWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicOathSwornBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicOathSwornByAthlete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/olympicOathSwornByJudge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/opponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/orientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/originalDanseCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/originalDanseScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/otherActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/otherFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/otherMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/otherOccupation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/painter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/parliamentaryGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/particularSign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/partner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/pastMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/pastor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/patent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/patron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/patronSaint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/penisLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/performer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/personFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/pgaWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/philosophicalSchool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/photographer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/piercing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/placeOfBurial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/playerInTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/playerStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/podium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/poleDriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/polePosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/politicalFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/prefaceBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/prefect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/presenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/president",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/presidentGeneralCouncil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/presidentRegionalCouncil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/previousEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/primeMinister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/primogenitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/principal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/principalEngineer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/proPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/proSince",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/profession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/provost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/pseudonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/publication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/raceWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/radio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/recentWinner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/rector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/reffBourgmestre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/reign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/reignName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/relatedFunctions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/relation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/relative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/residence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/restingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/restingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/restingPlacePosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/retirementDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/runningMate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/salary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/scene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/school",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/seasonManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/second",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/secondCommander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/secondDriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/secondLeader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/secondPopularVote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/secretaryGeneral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/seiyu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/senator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sentence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/setDesigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sexualOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shipCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shoeNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shoeSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shoot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shortProgCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/shortProgScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/showJudge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sibling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/signature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/significantProject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/silverMedalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/skinColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/solicitorGeneral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/specialEffects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/specialTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/speciality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/spokesperson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sportDiscipline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/sportsFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/spouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/spouseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/start",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/startCareer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/startReign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/startWct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/startWqs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/stateDelegate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/stateOfOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/statusManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/storyEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/student",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/superintendent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/taoiseach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/tattoo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/teamManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/temple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/templeYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/tessitura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/third",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/thirdCommander",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/thirdDriver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/titleDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/torchBearer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/trainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/translator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/trustee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/tvShow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/university",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/usopenWins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/usurper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/viceChancellor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/viceLeader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/vicePresident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/vicePrimeMinister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/vicePrincipal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/victory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/victoryAsMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/victoryPercentageAsMgr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/voice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/waistSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/weapon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/weddingParentsDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/world",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/worldTournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/worldTournamentBronze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/worldTournamentGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/worldTournamentSilver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/writer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ]
+}, {
+  "@id" : "http://open.vocab.org/terms/defines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://open.vocab.org/terms/describes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2007/05/powder-s#describedby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q215627",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]
